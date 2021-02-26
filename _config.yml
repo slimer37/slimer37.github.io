@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Log 37
+title: The Frontlog
+author: by Alfred
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the blog. I post project progress and other activities here.
@@ -26,7 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username:  slimer37
+github_username: slimer37
+avatar: "favicon.ico"
 
 # Build settings
 theme: minima
