@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is my blog.
+Welcome to my blog.
 
 Expect devlogs of progress on all my projects and some informal things. I use [Unity][unity], a game engine I've been learning for a little over a year. I started coding with C# the summer of 2019 and experimented in other programming languages: C++, Python, JavaScript, and Java. I attempted HTML/CSS for a while but realized making a website is hardly my strong suit.
 
