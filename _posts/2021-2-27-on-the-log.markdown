@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On the Log"
+title: "On the Log"
 ---
 
 All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs.
