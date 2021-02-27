@@ -6,7 +6,7 @@ permalink: /about/
 
 Welcome to my blog.
 
-Expect devlogs of progress on all my projects and some informal things. I use [Unity][unity], a game engine I've been learning for a little over a year. I started coding with C# the summer of 2019 and experimented in other programming languages: C++, Python, JavaScript, and Java. I attempted HTML/CSS for a while but realized making a website is hardly my strong suit.
+Expect devlogs of progress on all my projects and some informal things. I use [Unity][unity], a game engine I've been learning for a little over a year. I started coding with C# the summer of 2019 and experimented in other programming languages: C++, Python, JavaScript, and Java. I attempted HTML/CSS and SQL for a while but realized making a website and managing databses are hardly my strong suits.
 
 *Frontlog* derives from my tendency to sit down and commit to long bouts of work and decimate the backlog. You might see me do this with homework or personal projects. If you wanna see what I'm working on, there's a list on the [Current Projects][projectPage] page at the top.
 
