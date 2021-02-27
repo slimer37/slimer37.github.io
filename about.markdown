@@ -15,7 +15,7 @@ You can visit my [GitHub profile][githubProfile], but there won't be much. (The 
 # My tools:
 - The [Unity][unity] game engine
 - Microsoft's [Visual Studio][vs] for Unity development
-  - I use [Visual Studio Code][vsCode] occassionally (also by Microsoft), often for working away from home or for simpler projects. I love the available color themes.
+  - I use [Visual Studio Code][vsCode] occassionally (also by Microsoft), usually for working away from home or for simpler projects. I love the available color themes.
 - [Blender][blender] to make 3D models
 - [Aseprite][aseprite] for pixel-art
 
