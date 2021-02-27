@@ -20,10 +20,10 @@
 
 title: The Frontlog
 author: Alfred M
-email: 
+email: reedable37@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the blog. I post project progress and other activities here.
-  Ads on this site support my projects.
+  Ads on this site support my projects. If you spot a mistake, email me!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
