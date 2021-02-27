@@ -18,6 +18,7 @@ You can visit my [GitHub profile][githubProfile], but there won't be much. (The 
   - I use [Visual Studio Code][vsCode] occassionally (also by Microsoft), usually for working away from home or for simpler projects. I love the available color themes.
 - [Blender][blender] to make 3D models
 - [Aseprite][aseprite] for pixel-art
+- [Notepad++][nppp] to edit blog posts and other non-code files
 
 This is a [Jekyll](https://jekyllrb.com/)-generated site hosted with [GitHub][githubProfile]--I recommend it if you're looking to make something of your own. It's much easier than manual HTML.
 
@@ -30,3 +31,4 @@ See the files: <https://github.com/slimer37/slimer37.github.io>
 [vsCode]: https://code.visualstudio.com/
 [blender]: https://www.blender.org/
 [aseprite]: https://www.aseprite.org/
+[nppp]: https://notepad-plus-plus.org/
