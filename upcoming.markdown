@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Current Projects
+title: Projects
 permalink: /upcoming/
 ---
 
-All the games I'll be working on long-term.
+All the games I'll be working on long-term or have worked on.
 
 ### Unnamed Store Game
 
