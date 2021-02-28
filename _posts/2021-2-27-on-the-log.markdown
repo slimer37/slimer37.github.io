@@ -41,14 +41,16 @@ Writing an employee handbook for a mock-company I formed with some friends also 
 As much as I enjoyed writing all the stuff setting up this blog I doubt I would care enough to uphold a schedule.
 If I had to have one it would function more as a suggestion.
 About-weekly posts is the best I can offer.
-Either that or next week I'll decide to do multiple again.
+Either that or next week I'll decide to do more than one again.
 It depends on my free time.
-I always have free time but if work blocks work the blog is held up.
+I always have free time but if work blocks work, the blog gets held up.
 
-Why am I doing multiple this weekend?
+Why am I doing more than one this weekend?
 Google Ads require that I have some content before I host them which is perfectly reasonable and it pushed me to sit down and fulfill the criterion.
+I doubt they require more than one blog post but I'll play it safe.
+Besides, I like making these.
 
-I hope this is the appropriate blog post length.
+I think this is the appropriate blog post length.
 According to a Google search, it fits in 2015; present-day asks for 1000+ words.
 
 If I can write about my experiences in a mildly-engaging way that'll be fine and I won't feel the need to stretch it out.
