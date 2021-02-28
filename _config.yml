@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the blog. I post project progress and other activities here.
   Ads on this site support my projects. If you spot a mistake, email me!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://slimer37.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: slimer37
 avatar: "favicon.ico"
@@ -35,6 +35,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+disqus:
+  shortname: slimer37-github-com
+  
 header_pages:
   - about.markdown
   - upcoming.markdown

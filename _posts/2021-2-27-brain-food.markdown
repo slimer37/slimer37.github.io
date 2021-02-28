@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brain Food"
+comments: true
 ---
 
 I don't mean oranges.
@@ -72,6 +73,11 @@ This is my time capsule.
 Or one of them.
 
 I hope I get a Creative Cloud subscription in the future.
+
+---
+<br>
+I'm experimenting with comments on this post.
+If it goes unused for a long time or it doesn't work out in some other way, I'll get rid of them.
 
 [graph]: /assets/images/workGraph.png
 [freehand]: https://www.invisionapp.com/freehand
