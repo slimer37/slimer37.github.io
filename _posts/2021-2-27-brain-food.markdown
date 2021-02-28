@@ -33,7 +33,7 @@ The average day has at least a little work in it.
 Weekends are unpredictable. Either no work is done or a lot of work is done.
 Take, for example, a couple weeks ago where I used my weekend to build that frontlog.
 
-It was the first post where I said I wouldn't adhere to a schedule.
+It was in [On the Log][firstPost] where I said I wouldn't adhere to a schedule.
 I'll probably do bursts like this one, just not all in a couple days (unless I'm especially motivated).
 Don't be surprised if I publish some on weekdays, but they will most likely be on weekends.
 I'm aiming for a thousand words with these and I'm fully capable of doing that in a single day (like today) but I don't think I wanna make and post three in a day ever again.
@@ -75,3 +75,4 @@ I hope I get a Creative Cloud subscription in the future.
 
 [graph]: /assets/images/workGraph.png
 [freehand]: https://www.invisionapp.com/freehand
+[firstPost]: /2021/02/27/on-the-log.html
