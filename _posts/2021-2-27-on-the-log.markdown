@@ -6,7 +6,9 @@ title: "On the Log"
 All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs.
 The workload isn't worth it for me but I do love watching others'; especially BWDev's Lumbermill videos.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_kyBQFgfqJw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>
+<iframe width="80%" height="315" src="https://www.youtube.com/embed/_kyBQFgfqJw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 They're absolutely fascinating videos. *[See the playlist][lumbermill].*
 
