@@ -26,7 +26,7 @@ A graph of how much I work through an average week looks like this:
 
 ![Graph of work over a week][graph]
 
-*If you're wondering, I made this visual and the one in the last post with [Freehand][freehand].*
+*If you're wondering, I made this visual and the one in the [last post][lastPost] with [Freehand][freehand].*
 
 Monday, sometimes Sunday, is often the most intensive day for me.
 Notice how the graph never reaches zero.
@@ -82,3 +82,4 @@ If it goes unused for a long time or it doesn't work out in some other way, I'll
 [graph]: /assets/images/workGraph.png
 [freehand]: https://www.invisionapp.com/freehand
 [firstPost]: /2021/02/27/on-the-log.html
+[lastPost]: /2021/02/27/supermarket-scramble.html
