@@ -38,7 +38,7 @@ To allow the player to hold items, I forced the item to stay at a constant offse
 This meant that no matter what, the item would remain floating in front of the player even if an environment element was in the way.
 Immovable objects would intersect the object.
 Physics objects would be pushed, no matter how heavy.
-The scanning system uses an detection box and the information placed on the monitor in-game was attached to each "product".
+The scanning system uses a detection box and the information placed on the monitor in-game was attached to each "product".
 
 Customers throughout the versions were a special marker of progress.
 The first version had a single orange block representing a customer.
