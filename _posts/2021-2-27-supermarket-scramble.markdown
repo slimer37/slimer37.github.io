@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Supermarket Scramble Timeline"
-modified-date: 2021-02-25
 ---
 
 I started coding in the summer of 2019.
