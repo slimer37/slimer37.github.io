@@ -34,9 +34,6 @@ avatar: "favicon.ico"
 theme: minima
 plugins:
   - jekyll-feed
-
-disqus:
-  shortname: slimer37-github-com
   
 header_pages:
   - about.markdown
