@@ -129,10 +129,6 @@ So there--my 2021-appropriately-sized blog post. Over a thousand words. 👏
 
 **The dated headings for each picture are estimates, accurate within a few months--some of the files are gone so I couldn't get exact dates for each attempt. What I did get was from the file creation date in Windows.*
 
-### Poll
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyh6YQv7Zs-zO7Am4aUoMZ7_XMW-dirVb_8TPMb-gbKmN_hw/viewform?embedded=true" width="100%" height="951" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
 [codecademy]: https://www.codecademy.com/
 [1]: /assets/images/1.png
 [2]: /assets/images/2.png
