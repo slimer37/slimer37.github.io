@@ -14,8 +14,8 @@ You can visit my [GitHub profile][githubProfile], but there won't be much. (The 
 
 # My tools:
 - The [Unity][unity] game engine
-- Microsoft's [Visual Studio][vs] for Unity development
-  - I use [Visual Studio Code][vsCode] occassionally (also by Microsoft), usually for working away from home or for simpler projects. I love the available color themes.
+- [Jetbrains Rider][rider] for Unity development
+  - I use [Visual Studio Code][vsCode] occassionally, usually for working away from home or for simpler projects. I love the available color themes.
 - [Blender][blender] to make 3D models
 - [Aseprite][aseprite] for pixel-art
 - [Notepad++][nppp] to edit blog posts and other non-code files
@@ -27,6 +27,7 @@ See the files: <https://github.com/slimer37/slimer37.github.io>
 [githubProfile]: https://github.com/slimer37
 [projectPage]: /upcoming
 [unity]: https://unity.com/
+[rider]: https://www.jetbrains.com/rider/
 [vs]: https://visualstudio.microsoft.com/
 [vsCode]: https://code.visualstudio.com/
 [blender]: https://www.blender.org/
