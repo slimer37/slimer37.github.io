@@ -25,6 +25,8 @@ All the games I'll be working on long-term or have worked on.
 
 A business-management simulator where you're the only employee. Expand a retail store to your work limits. *ETA: 2022*
 
+{% include likebutton.html id="store" %}
+
 ## __Shelved__
 
 ---

@@ -1,0 +1,5 @@
+{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-theme="ok" data-lazy_load="true" data-identifier="{{ url_path }}{{ include.id | default: ""}}likebtn" data-white_label="true" data-popup_disabled="true" data-popup_position="left" data-i18n_like_tooltip="Cool!" data-i18n_dislike_tooltip="Terrible!"></span>
+<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+<!-- LikeBtn.com END -->
