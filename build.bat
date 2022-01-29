@@ -1,0 +1,1 @@
+bundle exec jekyll build -s "jekyll_src" -d blog
