@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<style>
+h1 { font-weight: 400; font-family: 'Staatliches', cursive; }
+body { font-family: 'Roboto', sans-serif; text-align: center; }
+</style>
+
+<body>
+<h1><span style="font-size: 35pt">Not a 404. Everything is fine.</span><br>Pardon my dust, I've been lazy.</h1>
+<p>In fact, I've been lazy for <span id="lazyTime"></span>.</p>
+<hr>
+<h2>Looking for the blog?</h2>
+<form action="./blog">
+    <button style="font-size:15pt">It's right over here.</button>
+</form>
+</body>
+
+<script>
+// from https://stackoverflow.com/questions/9685381/javascript-count-days-from-today
+
+var then = new Date(2022, 00, 29), // month is zero based
+    now  = new Date;               // no arguments -> current date
+
+// 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
+var ms = now - then;
+var secs = ms / 1000;
+var mins = secs / 60;
+var hrs = mins / 60;
+var days = hrs / 24;
+
+var daysSince = days;
+var leftoverHrs = hrs - days * 24;
+var leftoverMins = mins - leftoverHrs * 60 - days * 60 * 24;
+
+document.getElementById("lazyTime").innerHTML = `${Math.round(daysSince)} days, ${Math.round(leftoverHrs)} hours, and ${Math.round(leftoverMins)} minutes`;
+</script>
