@@ -13,30 +13,33 @@ body { font-family: 'Roboto', sans-serif; text-align: center; }
 
 <body>
 <h1><span style="font-size: 35pt">Not a 404. Everything is fine.</span><br>Pardon my dust, I've been lazy.</h1>
-<p>In fact, I've been lazy for <span id="lazyTime"></span>.</p>
+<p>In fact, I've been lazy for <b><span id="lazyTime"></span></b>.</p>
 <hr>
-<h2>Looking for the blog?</h2>
-<form action="./blog">
-    <button style="font-size:15pt">It's right over here.</button>
-</form>
+<h2><a href="./blog">Click here for the blog and everything else.</a></h2>
 </body>
 
 <script>
-// from https://stackoverflow.com/questions/9685381/javascript-count-days-from-today
+generateLaziness()
+setInterval(generateLaziness, 1000);
 
-var then = new Date(2022, 00, 29), // month is zero based
-    now  = new Date;               // no arguments -> current date
+function generateLaziness() {
+    // from https://stackoverflow.com/questions/9685381/javascript-count-days-from-today
 
-// 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
-var ms = now - then;
-var secs = ms / 1000;
-var mins = secs / 60;
-var hrs = mins / 60;
-var days = hrs / 24;
+    const then = new Date(2022, 00, 29); // month is zero based
+    const now = new Date;               // no arguments -> current date
 
-var daysSince = days;
-var leftoverHrs = hrs - days * 24;
-var leftoverMins = mins - leftoverHrs * 60 - days * 60 * 24;
+    // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
+    var ms = now - then;
+    var secs = ms / 1000;
+    var mins = secs / 60;
+    var hrs = mins / 60;
+    var days = hrs / 24;
 
-document.getElementById("lazyTime").innerHTML = `${Math.round(daysSince)} days, ${Math.round(leftoverHrs)} hours, and ${Math.round(leftoverMins)} minutes`;
+    var daysSince = Math.floor(days);
+    var leftoverHrs = Math.floor(hrs - daysSince * 24);
+    var leftoverMins = Math.floor(mins - Math.floor(hrs) * 60);
+    var leftoverSecs = Math.floor(secs - Math.floor(mins) * 60);
+
+    document.getElementById("lazyTime").innerHTML = `${daysSince} days, ${leftoverHrs} hours, ${leftoverMins} minutes, and ${leftoverSecs} seconds`;
+}
 </script>
