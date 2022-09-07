@@ -8,7 +8,7 @@ permalink: /podcast/
 
 I started a [podcast][trike] a while ago with a couple of friends.
 
-We haven't recorded a new one in a long while and I don't expect one will arrive until the virus stops. You can listen to the latest episode with the convenient player above. It's on [Spotify][spotify] and other major podcasting platforms.
+We haven't recorded a new one in a long while and I don't expect one will arrive. You can listen to the latest episode with the convenient player above. It's on [Spotify][spotify] and other major podcasting platforms.
 
 Links:
 
