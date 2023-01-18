@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-h1 { font-weight: 400; font-family: 'Staatliches', cursive; }
-body { font-family: 'Roboto', sans-serif; text-align: center; }
-</style>
-
 <body>
-<h1><span style="font-size: 35pt">Not a 404. Everything is fine.</span><br>Pardon my dust, I've been lazy.</h1>
-<p>In fact, I've been lazy for <b><span id="lazyTime"></span></b>.</p>
-<hr>
-<h2><a href="./blog">Click here for the blog and everything else.</a></h2>
+    <h1 style="font-size: 35pt">Under construction!</h1>
+    <p>It's been <b><span id="lazyTime"></span></b> since this website had a major update!</p>
+
+    <p>
+        There'll be new pages, reorganization, and legitimate content.
+    </p>
+    <hr>
+    <h2><a href="./blog">Click here for the original blog.</a></h2>
 </body>
 
 <script>
-generateLaziness()
-setInterval(generateLaziness, 1000);
+    generateLaziness()
+    setInterval(generateLaziness, 1000);
 
-function generateLaziness() {
-    // from https://stackoverflow.com/questions/9685381/javascript-count-days-from-today
+    function generateLaziness() {
+        // from https://stackoverflow.com/questions/9685381/javascript-count-days-from-today
 
-    const then = new Date(2022, 00, 29); // month is zero based
-    const now = new Date;               // no arguments -> current date
+        const then = new Date(2022, 00, 29); // month is zero based
+        const now = new Date;               // no arguments -> current date
 
-    // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
-    var ms = now - then;
-    var secs = ms / 1000;
-    var mins = secs / 60;
-    var hrs = mins / 60;
-    var days = hrs / 24;
+        // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
+        var ms = now - then;
+        var secs = ms / 1000;
+        var mins = secs / 60;
+        var hrs = mins / 60;
+        var days = hrs / 24;
 
-    var daysSince = Math.floor(days);
-    var leftoverHrs = Math.floor(hrs - daysSince * 24);
-    var leftoverMins = Math.floor(mins - Math.floor(hrs) * 60);
-    var leftoverSecs = Math.floor(secs - Math.floor(mins) * 60);
+        var daysSince = Math.floor(days);
+        var leftoverHrs = Math.floor(hrs - daysSince * 24);
+        var leftoverMins = Math.floor(mins - Math.floor(hrs) * 60);
+        var leftoverSecs = Math.floor(secs - Math.floor(mins) * 60);
 
-    document.getElementById("lazyTime").innerHTML = `${daysSince} days, ${leftoverHrs} hours, ${leftoverMins} minutes, and ${leftoverSecs} seconds`;
-}
+        document.getElementById("lazyTime").innerHTML = `${daysSince} days, ${leftoverHrs} hours, ${leftoverMins} minutes, and ${leftoverSecs} seconds`;
+    }
 </script>
