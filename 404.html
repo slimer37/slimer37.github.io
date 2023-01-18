@@ -38,7 +38,7 @@
   <div class="content" style="text-align: center;">
     <img src="assets/images/logoeyes.png" class="invert" width="100px" style="margin-bottom: -35px;">
 
-    <h1 id="err" style="font-size: 5em; margin: 0;">037</h1>
+    <h1 id="err" style="font-size: 5em; margin: 0;">404</h1>
 
     <h2 style="margin: 0;">Page not found.</h2>
 
@@ -47,11 +47,13 @@
 </body>
 
 <script>
-  let errNumber = document.getElementById("err");
+  let errNumber = document.getElementById("err")
 
-  let typeInterval = 100;
+  let typeInterval = 100
+  let typeDelay = 500
+  let chance = 0.1
 
-  let typeDelay = 500;
+  let initial = "037"
 
   let typing = [
     "037|",
@@ -64,11 +66,15 @@
     "404"
   ]
 
-  Array.from(typing).forEach((text, index) => {
-    setTimeout(() => {
-      errNumber.innerHTML = text
-    }, index * typeInterval + typeDelay);
-  });
+  if (Math.random() < chance) {
+    errNumber.innerHTML = initial
+
+    Array.from(typing).forEach((text, index) => {
+      setTimeout(() => {
+        errNumber.innerHTML = text
+      }, index * typeInterval + typeDelay)
+    });
+  }
 
   let messages = [
     "Couldn't find that page.",
@@ -81,6 +87,7 @@
     "Wrong place.",
     "Try the unabridged version!",
     "Also try Terraria!",
+    "...the end is never the end is never the end is never the end is never the end...",
     "wavyASK AGAIN LATER.",
     "wavyCONCENTRATE AND ASK AGAIN.",
     "wavyREPLY HAZY, TRY AGAIN."
@@ -90,14 +97,13 @@
 
   // https://codepen.io/zachkrall/pen/MWWGMPx
 
-  let waveInterval = 40;
+  let waveInterval = 40
 
   let message = document.getElementById("message");
 
   if (!text.startsWith("wavy")) {
-    message.innerHTML = text;
-  }
-  else {
+    message.innerHTML = text
+  } else {
     text = text.substring(4)
     message.innerHTML = text
       .split("")
