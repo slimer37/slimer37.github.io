@@ -2,42 +2,26 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1 style="font-size: 35pt">Under construction!</h1>
-    <p>It's been <b><span id="lazyTime"></span></b> since this website had a major update!</p>
+  <header>
+    <img src="assets/images/logo.png" height="128" />
+    <a class="nav-btn" href="./blog/index.html">Blog</a>
+    <a class="nav-btn" href="./blog/about.html">About</a>
+    <a class="nav-btn" href="./blog/contacts.html">Contact</a>
+  </header>
 
+  <div class="content" style="text-align: center">
     <p>
-        There'll be new pages, reorganization, and legitimate content.
+      There'll be new pages, reorganization, and legitimate content.
     </p>
-    <hr>
-    <h2><a href="./blog">Click here for the original blog.</a></h2>
+  </div>
+
+  <footer>
+    <p>by Alfred Roy M</p>
+    <p>Contact: <a class="footer-email" href="mailto:slimer37dev@gmail.com">slimer37dev@gmail.com</a></p>
+  </footer>
 </body>
-
-<script>
-    generateLaziness()
-    setInterval(generateLaziness, 1000);
-
-    function generateLaziness() {
-        // from https://stackoverflow.com/questions/9685381/javascript-count-days-from-today
-
-        const then = new Date(2022, 00, 29); // month is zero based
-        const now = new Date;               // no arguments -> current date
-
-        // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
-        var ms = now - then;
-        var secs = ms / 1000;
-        var mins = secs / 60;
-        var hrs = mins / 60;
-        var days = hrs / 24;
-
-        var daysSince = Math.floor(days);
-        var leftoverHrs = Math.floor(hrs - daysSince * 24);
-        var leftoverMins = Math.floor(mins - Math.floor(hrs) * 60);
-        var leftoverSecs = Math.floor(secs - Math.floor(mins) * 60);
-
-        document.getElementById("lazyTime").innerHTML = `${daysSince} days, ${leftoverHrs} hours, ${leftoverMins} minutes, and ${leftoverSecs} seconds`;
-    }
-</script>
