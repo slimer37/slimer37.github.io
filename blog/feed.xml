@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://slimer37.github.io//blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://slimer37.github.io//blog/" rel="alternate" type="text/html" /><updated>2022-02-13T17:03:35-08:00</updated><id>https://slimer37.github.io//blog/feed.xml</id><title type="html">Frontlog</title><subtitle>Welcome to the blog. I post project progress and other activities here. If you spot a mistake, let me know!</subtitle><author><name>Alfred M</name></author><entry><title type="html">What’s the Deal?</title><link href="https://slimer37.github.io//blog/2022/01/17/what-is-the-deal.html" rel="alternate" type="text/html" title="What’s the Deal?" /><published>2022-01-17T00:00:00-08:00</published><updated>2022-01-17T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2022/01/17/what-is-the-deal</id><content type="html" xml:base="https://slimer37.github.io//blog/2022/01/17/what-is-the-deal.html">&lt;p&gt;The deal is I want a blog but I have a lack of motivation to write for it. Every so often an idea for a blog post will pop up in my head but ultimately it never makes it to the actual blog feed. I start off a markdown file like this one and get a good foothold on an idea but the second I stop writing, the post dies.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://slimer37.github.io//blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://slimer37.github.io//blog/" rel="alternate" type="text/html" /><updated>2023-01-17T21:01:01-08:00</updated><id>https://slimer37.github.io//blog/feed.xml</id><title type="html">Frontlog</title><subtitle>Welcome to the blog. I post project progress and other activities here. If you spot a mistake, let me know!</subtitle><author><name>Alfred M</name></author><entry><title type="html">Enter Return</title><link href="https://slimer37.github.io//blog/2023/01/17/enter-return.html" rel="alternate" type="text/html" title="Enter Return" /><published>2023-01-17T00:00:00-08:00</published><updated>2023-01-17T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2023/01/17/enter-return</id><content type="html" xml:base="https://slimer37.github.io//blog/2023/01/17/enter-return.html">&lt;p&gt;&lt;em&gt;The deal:&lt;/em&gt; Website upgrades.&lt;/p&gt;
+
+&lt;p&gt;This is the first blog post this website has seen in the last year. The last one was written this day of 2022. Now I’m back because I realize I really need an online portfolio because I don’t have an organized collection of all the cool stuff I’ve done (and tried to do).&lt;/p&gt;
+
+&lt;p&gt;As far as the smallest changes, this site has seen some micro-improvements. I updated the list of software I use and got myself a domain name without &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;github&lt;/code&gt; in it.&lt;/p&gt;
+
+&lt;p&gt;In the time that this website has been practically idle I have graduated from high school and been through my first semester of college. I went to Disneyland with friends, gave a speech at my graduation, and traveled to the Philippines.&lt;/p&gt;
+
+&lt;p&gt;I also discontinued the Steam page for Counter Chaos. It’s still accessible from old links, but I’ve wasted all the release visibility events it had so there’s not really a chance for any games being sold through that slot. So another $100 is going to Valve once I make a new game for Steam.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m finding that some internships I’d like to participate in prefer that I have a collected portfolio, so I’m going to freshen up this website to do that. That includes things &lt;em&gt;other than a blog&lt;/em&gt;. I doubt I’ll begin regular blog posts—almost wrote “I doubt I’ll go back to regular posts” but that was never the case—because my ideas go dry after writing just one, maybe two.&lt;/p&gt;
+
+&lt;p&gt;So here’s a few things I plan to do according to my new personal-website-renovation project in the coming weeks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;More pages besides this blog to showcase past games and unfinished projects with long descriptions and development logs and information.&lt;/li&gt;
+  &lt;li&gt;Move About, Projects, and Trike pages outside of the blog page. (If you’re reading this after I made this change, they used to be page links in the top-right.)&lt;/li&gt;
+  &lt;li&gt;Add 3D and UI/Illustration galleries in the same way I’ll make the game display pages&lt;/li&gt;
+  &lt;li&gt;Ensure the next blog post doesn’t occur a year apart from this one.&lt;/li&gt;
+  &lt;li&gt;General quality maintenance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I don’t know if I wanna use Boostrap Studio or try my hand at straight HTML for this. I’ll go for raw code first and see what happens.&lt;/p&gt;
+
+&lt;p&gt;Besides this list I’m cooking up a large Unity project. And school. Exciting!&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">The deal: Website upgrades.</summary></entry><entry><title type="html">What’s the Deal?</title><link href="https://slimer37.github.io//blog/2022/01/17/what-is-the-deal.html" rel="alternate" type="text/html" title="What’s the Deal?" /><published>2022-01-17T00:00:00-08:00</published><updated>2022-01-17T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2022/01/17/what-is-the-deal</id><content type="html" xml:base="https://slimer37.github.io//blog/2022/01/17/what-is-the-deal.html">&lt;p&gt;The deal is I want a blog but I have a lack of motivation to write for it. Every so often an idea for a blog post will pop up in my head but ultimately it never makes it to the actual blog feed. I start off a markdown file like this one and get a good foothold on an idea but the second I stop writing, the post dies.&lt;/p&gt;
 
 &lt;p&gt;I realize now I started this blog for the &lt;em&gt;wrongest&lt;/em&gt; reasons. I just wanted a place to put some Google ads onto. Tried, rejected. If I know anything, don’t commit to a project &lt;em&gt;just&lt;/em&gt; for the payout. The payout is fine as partial motivation but definitely not the majority; it’s in the same vein as liking your job–you can be passionate about it and still want fair compensation. Similarly, being underpaid for your work is something to resist.&lt;/p&gt;
 
@@ -80,53 +104,7 @@ It’ll be interesting to see my thought processes and mindset and skill evolve 
 This is my time capsule.
 Or one of them.&lt;/p&gt;
 
-&lt;p&gt;I hope I get a Creative Cloud subscription in the future.&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">I don’t mean oranges.</summary></entry><entry><title type="html">On the Log</title><link href="https://slimer37.github.io//blog/2021/02/27/on-the-log.html" rel="alternate" type="text/html" title="On the Log" /><published>2021-02-27T00:00:00-08:00</published><updated>2021-02-27T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2021/02/27/on-the-log</id><content type="html" xml:base="https://slimer37.github.io//blog/2021/02/27/on-the-log.html">&lt;p&gt;All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs.
-The workload isn’t worth it for me but I do love watching others’; especially BWDev’s Lumbermill videos.
-They’re absolutely fascinating. &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_kyBQFgfqJw&amp;amp;list=PLQrWgCpGF5B5e3btoq7nJj0bakRL1qcjD&quot;&gt;See the playlist&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A part of why I find these so entertaining is because I want to do everything he’s doing–the fact that he’s making a management game brings me all the more joy.
-It’s the creation of a game I’d want to play.
-He details every step and lets you in on the thinking process before you finally see the beautiful product after failed attempts.&lt;/p&gt;
-
-&lt;p&gt;I can relate to that process because I’ve been through about a year of it.
-You keep learning as a programmer and Google keeps holding your hand through the errors.
-I plan on having this blog consist of a bunch of documented development just to show the reader how I come up with things and to hopefully provide some interesting insight into the not-so-terrible world of game development.&lt;/p&gt;
-
-&lt;p&gt;I wanna show you the bounds of possibility &lt;em&gt;and&lt;/em&gt; frustration with coding a big project like this.&lt;/p&gt;
-
-&lt;p&gt;I’ve got &lt;a href=&quot;/upcoming&quot;&gt;3 projects&lt;/a&gt; on the to-do list right now and I’ve put significant work into just the first–the store game.
-The store game is a special learning experience for me because, archived, I have a handful of attempts at making the thing that were cut short because of garbage code which led to stagnant progress.
-Looking through those in detail would be fun.
-Better put it on the backlog.&lt;/p&gt;
-
-&lt;p&gt;I didn’t write this blog post in a sitting near midnight–I didn’t &lt;em&gt;get&lt;/em&gt; to. But I wanted to.
-I was in the mood for work, having written the &lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt;, &lt;a href=&quot;/podcast&quot;&gt;podcast&lt;/a&gt;, and &lt;a href=&quot;/upcoming&quot;&gt;projects&lt;/a&gt; page.
-That writing session brought me up to about 5 medium paragraphs; the rest was completed the next morning.
-I don’t know if that appears impressive, but I hope it demonstrates how much fun I find in doing work that isn’t homework.
-Homework could be fun but I rarely see that in AP classes; any class now, really.
-Going back to physical I’ll no doubt see something I’ll enjoy completing, like this group project from English Honors:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/lotf.jpg&quot; alt=&quot;A creative project on Lord of the Flies&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Writing an employee handbook for a mock-company I formed with some friends also falls under this “fun work” category.&lt;/p&gt;
-
-&lt;p&gt;As much as I enjoyed writing all the stuff setting up this blog I doubt I would care enough to uphold a schedule.
-If I had to have one it would function more as a suggestion.
-About-weekly posts is the best I can offer.
-Either that or next week I’ll decide to do more than one again.
-It depends on my free time.
-I always have free time but if work blocks work, the blog gets held up.&lt;/p&gt;
-
-&lt;p&gt;Why am I doing more than one this weekend?
-Google Ads require that I have some content before I host them which is perfectly reasonable and it pushed me to sit down and fulfill the criterion.
-I doubt they require more than one blog post but I’ll play it safe.
-Besides, I like making these.&lt;/p&gt;
-
-&lt;p&gt;I think this is the appropriate blog post length.
-According to a Google search, it fits in 2015; present-day asks for 1000+ words.&lt;/p&gt;
-
-&lt;p&gt;If I can write about my experiences in a mildly-engaging way that’ll be fine and I won’t feel the need to stretch it out.
-There’s where the first post ends.&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs. The workload isn’t worth it for me but I do love watching others’; especially BWDev’s Lumbermill videos. They’re absolutely fascinating. See the playlist.</summary></entry><entry><title type="html">The Supermarket Scramble Timeline</title><link href="https://slimer37.github.io//blog/2021/02/27/supermarket-scramble.html" rel="alternate" type="text/html" title="The Supermarket Scramble Timeline" /><published>2021-02-27T00:00:00-08:00</published><updated>2021-02-27T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2021/02/27/supermarket-scramble</id><content type="html" xml:base="https://slimer37.github.io//blog/2021/02/27/supermarket-scramble.html">&lt;p&gt;I started coding in the summer of 2019.&lt;/p&gt;
+&lt;p&gt;I hope I get a Creative Cloud subscription in the future.&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">I don’t mean oranges.</summary></entry><entry><title type="html">The Supermarket Scramble Timeline</title><link href="https://slimer37.github.io//blog/2021/02/27/supermarket-scramble.html" rel="alternate" type="text/html" title="The Supermarket Scramble Timeline" /><published>2021-02-27T00:00:00-08:00</published><updated>2021-02-27T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2021/02/27/supermarket-scramble</id><content type="html" xml:base="https://slimer37.github.io//blog/2021/02/27/supermarket-scramble.html">&lt;p&gt;I started coding in the summer of 2019.&lt;/p&gt;
 
 &lt;p&gt;A long time before that I attended a Sylvan game-programming course after school.
 I got tired of Hour of Code in elementary and Scratch’s interface (though both are good for learning basic concepts) because I wanted to create something that was truly my own.&lt;/p&gt;
@@ -248,4 +226,50 @@ By the way, if you want to play the in-progress game and you’re able to contac
 
 &lt;p&gt;So there–my 2021-appropriately-sized blog post. Over a thousand words. 👏&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;*The dated headings for each picture are estimates, accurate within a few months–some of the files are gone so I couldn’t get exact dates for each attempt. What I did get was from the file creation date in Windows.&lt;/em&gt;&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">I started coding in the summer of 2019.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;*The dated headings for each picture are estimates, accurate within a few months–some of the files are gone so I couldn’t get exact dates for each attempt. What I did get was from the file creation date in Windows.&lt;/em&gt;&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">I started coding in the summer of 2019.</summary></entry><entry><title type="html">On the Log</title><link href="https://slimer37.github.io//blog/2021/02/27/on-the-log.html" rel="alternate" type="text/html" title="On the Log" /><published>2021-02-27T00:00:00-08:00</published><updated>2021-02-27T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2021/02/27/on-the-log</id><content type="html" xml:base="https://slimer37.github.io//blog/2021/02/27/on-the-log.html">&lt;p&gt;All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs.
+The workload isn’t worth it for me but I do love watching others’; especially BWDev’s Lumbermill videos.
+They’re absolutely fascinating. &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_kyBQFgfqJw&amp;amp;list=PLQrWgCpGF5B5e3btoq7nJj0bakRL1qcjD&quot;&gt;See the playlist&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A part of why I find these so entertaining is because I want to do everything he’s doing–the fact that he’s making a management game brings me all the more joy.
+It’s the creation of a game I’d want to play.
+He details every step and lets you in on the thinking process before you finally see the beautiful product after failed attempts.&lt;/p&gt;
+
+&lt;p&gt;I can relate to that process because I’ve been through about a year of it.
+You keep learning as a programmer and Google keeps holding your hand through the errors.
+I plan on having this blog consist of a bunch of documented development just to show the reader how I come up with things and to hopefully provide some interesting insight into the not-so-terrible world of game development.&lt;/p&gt;
+
+&lt;p&gt;I wanna show you the bounds of possibility &lt;em&gt;and&lt;/em&gt; frustration with coding a big project like this.&lt;/p&gt;
+
+&lt;p&gt;I’ve got &lt;a href=&quot;/upcoming&quot;&gt;3 projects&lt;/a&gt; on the to-do list right now and I’ve put significant work into just the first–the store game.
+The store game is a special learning experience for me because, archived, I have a handful of attempts at making the thing that were cut short because of garbage code which led to stagnant progress.
+Looking through those in detail would be fun.
+Better put it on the backlog.&lt;/p&gt;
+
+&lt;p&gt;I didn’t write this blog post in a sitting near midnight–I didn’t &lt;em&gt;get&lt;/em&gt; to. But I wanted to.
+I was in the mood for work, having written the &lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt;, &lt;a href=&quot;/podcast&quot;&gt;podcast&lt;/a&gt;, and &lt;a href=&quot;/upcoming&quot;&gt;projects&lt;/a&gt; page.
+That writing session brought me up to about 5 medium paragraphs; the rest was completed the next morning.
+I don’t know if that appears impressive, but I hope it demonstrates how much fun I find in doing work that isn’t homework.
+Homework could be fun but I rarely see that in AP classes; any class now, really.
+Going back to physical I’ll no doubt see something I’ll enjoy completing, like this group project from English Honors:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/lotf.jpg&quot; alt=&quot;A creative project on Lord of the Flies&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Writing an employee handbook for a mock-company I formed with some friends also falls under this “fun work” category.&lt;/p&gt;
+
+&lt;p&gt;As much as I enjoyed writing all the stuff setting up this blog I doubt I would care enough to uphold a schedule.
+If I had to have one it would function more as a suggestion.
+About-weekly posts is the best I can offer.
+Either that or next week I’ll decide to do more than one again.
+It depends on my free time.
+I always have free time but if work blocks work, the blog gets held up.&lt;/p&gt;
+
+&lt;p&gt;Why am I doing more than one this weekend?
+Google Ads require that I have some content before I host them which is perfectly reasonable and it pushed me to sit down and fulfill the criterion.
+I doubt they require more than one blog post but I’ll play it safe.
+Besides, I like making these.&lt;/p&gt;
+
+&lt;p&gt;I think this is the appropriate blog post length.
+According to a Google search, it fits in 2015; present-day asks for 1000+ words.&lt;/p&gt;
+
+&lt;p&gt;If I can write about my experiences in a mildly-engaging way that’ll be fine and I won’t feel the need to stretch it out.
+There’s where the first post ends.&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs. The workload isn’t worth it for me but I do love watching others’; especially BWDev’s Lumbermill videos. They’re absolutely fascinating. See the playlist.</summary></entry></feed>
