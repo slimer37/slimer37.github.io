@@ -1,0 +1,43 @@
+---
+permalink: /404.html
+layout: default
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found.</strong></p>
+  <p id="message"></p>
+</div>
+
+<script>
+let messages =
+["Couldn't find that page.",
+"Sorry. Turned up empty.",
+"Nothing matched that.",
+"Are you sure you've got it right?",
+"Hmm, haven't any of that here.",
+"Maybe it got excised.",
+"Wrong number.",
+"Wrong place.",
+"Try the unabridged version!",
+"<i>ASK AGAIN LATER.</i>",
+"<i>CONCENTRATE AND ASK AGAIN.</i>",
+"<i>REPLY HAZY, TRY AGAIN.</i>"]
+
+document.getElementById("message").innerHTML = messages[Math.floor(Math.random() * messages.length)]
+</script>

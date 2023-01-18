@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://slimer37.github.io//blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://slimer37.github.io//blog/" rel="alternate" type="text/html" /><updated>2023-01-17T21:01:01-08:00</updated><id>https://slimer37.github.io//blog/feed.xml</id><title type="html">Frontlog</title><subtitle>Welcome to the blog. I post project progress and other activities here. If you spot a mistake, let me know!</subtitle><author><name>Alfred M</name></author><entry><title type="html">Enter Return</title><link href="https://slimer37.github.io//blog/2023/01/17/enter-return.html" rel="alternate" type="text/html" title="Enter Return" /><published>2023-01-17T00:00:00-08:00</published><updated>2023-01-17T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2023/01/17/enter-return</id><content type="html" xml:base="https://slimer37.github.io//blog/2023/01/17/enter-return.html">&lt;p&gt;&lt;em&gt;The deal:&lt;/em&gt; Website upgrades.&lt;/p&gt;
+
+&lt;p&gt;This is the first blog post this website has seen in the last year. The last one was written this day of 2022. Now I’m back because I realize I really need an online portfolio because I don’t have an organized collection of all the cool stuff I’ve done (and tried to do).&lt;/p&gt;
+
+&lt;p&gt;As far as the smallest changes, this site has seen some micro-improvements. I updated the list of software I use and got myself a domain name without &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;github&lt;/code&gt; in it.&lt;/p&gt;
+
+&lt;p&gt;In the time that this website has been practically idle I have graduated from high school and been through my first semester of college. I went to Disneyland with friends, gave a speech at my graduation, and traveled to the Philippines.&lt;/p&gt;
+
+&lt;p&gt;I also discontinued the Steam page for Counter Chaos. It’s still accessible from old links, but I’ve wasted all the release visibility events it had so there’s not really a chance for any games being sold through that slot. So another $100 is going to Valve once I make a new game for Steam.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m finding that some internships I’d like to participate in prefer that I have a collected portfolio, so I’m going to freshen up this website to do that. That includes things &lt;em&gt;other than a blog&lt;/em&gt;. I doubt I’ll begin regular blog posts—almost wrote “I doubt I’ll go back to regular posts” but that was never the case—because my ideas go dry after writing just one, maybe two.&lt;/p&gt;
+
+&lt;p&gt;So here’s a few things I plan to do according to my new personal-website-renovation project in the coming weeks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;More pages besides this blog to showcase past games and unfinished projects with long descriptions and development logs and information.&lt;/li&gt;
+  &lt;li&gt;Move About, Projects, and Trike pages outside of the blog page. (If you’re reading this after I made this change, they used to be page links in the top-right.)&lt;/li&gt;
+  &lt;li&gt;Add 3D and UI/Illustration galleries in the same way I’ll make the game display pages&lt;/li&gt;
+  &lt;li&gt;Ensure the next blog post doesn’t occur a year apart from this one.&lt;/li&gt;
+  &lt;li&gt;General quality maintenance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I don’t know if I wanna use Boostrap Studio or try my hand at straight HTML for this. I’ll go for raw code first and see what happens.&lt;/p&gt;
+
+&lt;p&gt;Besides this list I’m cooking up a large Unity project. And school. Exciting!&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">The deal: Website upgrades.</summary></entry><entry><title type="html">What’s the Deal?</title><link href="https://slimer37.github.io//blog/2022/01/17/what-is-the-deal.html" rel="alternate" type="text/html" title="What’s the Deal?" /><published>2022-01-17T00:00:00-08:00</published><updated>2022-01-17T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2022/01/17/what-is-the-deal</id><content type="html" xml:base="https://slimer37.github.io//blog/2022/01/17/what-is-the-deal.html">&lt;p&gt;The deal is I want a blog but I have a lack of motivation to write for it. Every so often an idea for a blog post will pop up in my head but ultimately it never makes it to the actual blog feed. I start off a markdown file like this one and get a good foothold on an idea but the second I stop writing, the post dies.&lt;/p&gt;
+
+&lt;p&gt;I realize now I started this blog for the &lt;em&gt;wrongest&lt;/em&gt; reasons. I just wanted a place to put some Google ads onto. Tried, rejected. If I know anything, don’t commit to a project &lt;em&gt;just&lt;/em&gt; for the payout. The payout is fine as partial motivation but definitely not the majority; it’s in the same vein as liking your job–you can be passionate about it and still want fair compensation. Similarly, being underpaid for your work is something to resist.&lt;/p&gt;
+
+&lt;p&gt;My workflow for blog stuff is not established but it’s going to have to be if I want to justify grabbing a free domain name, courtesy of GitHub and its partners. If I want to justify getting ads for this site, I’ll have to do the same as well. Short bursts every year will not cut it. It’s been nearly a whole year since the last post! All the previous posts were put up the same day, as a matter of fact. If there are ads somewhere on here, blame me for wanting a quarter-a-month salary. I don’t have a job, so it would be an improvement.&lt;/p&gt;
+
+&lt;p&gt;Speaking of domain names, some eccentric TLDs are available: &lt;em&gt;.rocks, .ninja, .codes, .email (why?)&lt;/em&gt;… I like &lt;em&gt;.studio&lt;/em&gt; for a professional setup and &lt;em&gt;.me&lt;/em&gt; for a personal page. The plan is to swipe a domain name, use it for a landing page, and split up this website into either subdomains or subdirectories. The other tabs (About, Projects, Trike) shouldn’t be overshadowed by a blog page. Frontlog shouldn’t be the main thing but as of writing, it is. If the page you’re on right now isn’t &lt;em&gt;slimer37.github.io&lt;/em&gt;, then I was successful. Otherwise, wait a few years while I procrastinate.&lt;/p&gt;
+
+&lt;p&gt;Speaking of procrastination, my frontlog is no longer in service. That is, I have nothing done in advance at the moment–if you wanna call two days a frontlog, that’s just wishful thinking. A frontlog should be at least a week, if you ask me. Ought not to call this blog &lt;em&gt;Frontlog&lt;/em&gt; since I’m getting nothing done with it.&lt;/p&gt;
+
+&lt;p&gt;I’m still trying to lay a little looser with the language on here; by that I mean less formal, less big words, more paragraphs of how I really talk and less of how I try to write in Honors English. (Speaking of speaking, I finished my final English class of high-school and it feels fantastic. Now I just have AP Chemistry and Calculus to run through.)&lt;/p&gt;
+
+&lt;p&gt;Going back to the website expansion plans reminded me of a bunch of plans I had for various, and impossibly ambitious, game-making missions. I remember making a serious attempt to work on three games at the same time, four at one point, and shelving all but one after months of futile work and underdeveloped ideas. &lt;a href=&quot;https://store.steampowered.com/app/1835160/Counter_Chaos/&quot;&gt;Counter Chaos&lt;/a&gt; was underdeveloped too (still is) but I was most attached to it for some reason.&lt;/p&gt;
+
+&lt;p&gt;So I’ll keep throwing code at the game until it’s done. Hopefully I’ll have a playable, enjoyable, beautiful and perfect demo (for all I know it’ll be none of those) done by the end of the month or at least by mid-February. Wait out for it until March or until I start making a big deal about it again.&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">The deal is I want a blog but I have a lack of motivation to write for it. Every so often an idea for a blog post will pop up in my head but ultimately it never makes it to the actual blog feed. I start off a markdown file like this one and get a good foothold on an idea but the second I stop writing, the post dies.</summary></entry><entry><title type="html">Brain Food</title><link href="https://slimer37.github.io//blog/2021/02/27/brain-food.html" rel="alternate" type="text/html" title="Brain Food" /><published>2021-02-27T00:00:00-08:00</published><updated>2021-02-27T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2021/02/27/brain-food</id><content type="html" xml:base="https://slimer37.github.io//blog/2021/02/27/brain-food.html">&lt;p&gt;I don’t mean oranges.&lt;/p&gt;
+
+&lt;p&gt;The original intention was to fill the blog with two starter posts to make it something worth reading–one as an introduction and the second a tour of the store game over the past year or so.
+They’re finished and they’re posted but I still had things to write about.
+Hey, it’s a good writing exercise.&lt;/p&gt;
+
+&lt;p&gt;I see these posts as creative writing.
+By working on them my brain gets more used to generating good sentences.
+It helps somewhat with English assignments.
+If I want some real improvement I’ll insert some sophistication here and there to make scholarly vocabulary and structure commonplace in my brain.
+That means–hopefully–it’ll take less effort to answer questions and come up with smart responses.
+Ultimately, I want homework to take less time so I can reserve my future self extra free time.&lt;/p&gt;
+
+&lt;p&gt;My AP work frontlog is a week long, meaning I have next week’s AP homework done early.
+I won’t be withdrawing my saved free time this week.
+I’ll keep it handy for when a large assignment crops up or if there’s a week where I can’t bear doing AP homework.
+I would love to increase the length of the frontlog to two or even three weeks.&lt;/p&gt;
+
+&lt;p&gt;A graph of how much I work through an average week looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/workGraph.png&quot; alt=&quot;Graph of work over a week&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’re wondering, I made this visual and the one in the &lt;a href=&quot;/2021/02/27/supermarket-scramble.html&quot;&gt;last post&lt;/a&gt; with &lt;a href=&quot;https://www.invisionapp.com/freehand&quot;&gt;Freehand&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Monday, sometimes Sunday, is often the most intensive day for me.
+Notice how the graph never reaches zero.
+The average day has at least a little work in it.
+Weekends are unpredictable. Either no work is done or a lot of work is done.
+Take, for example, a couple weeks ago where I used my weekend to build that frontlog.&lt;/p&gt;
+
+&lt;p&gt;It was in &lt;a href=&quot;/2021/02/27/on-the-log.html&quot;&gt;On the Log&lt;/a&gt; where I said I wouldn’t adhere to a schedule.
+I’ll probably do bursts like this one, just not all in a couple days (unless I’m especially motivated).
+Don’t be surprised if I publish some on weekdays, but they will most likely be on weekends.
+I’m aiming for a thousand words with these and I’m fully capable of doing that in a single day (like today) but I don’t think I wanna make and post three in a day ever again.
+I don’t have a formal schedule because for this as I can’t guarantee I’ll have something to talk about. If I had to estimate the frequency of these I’d say weekly. 
+Or ambiguously biweekly.
+Every two weeks?
+Twice a week?&lt;/p&gt;
+
+&lt;p&gt;I’m not doing this to impress my friends or show off my skills in any way, no; I want a blog because I want my stamp on the internet.
+A place separate from all my private stuff to serve as something between a scrapbook and a portfolio.
+And to show ads.&lt;/p&gt;
+
+&lt;p&gt;If I find myself in a conversation and I’m given the opportunity to mention my blog to a potential reader.
+It’s a different deal with the podcast because it’s not that I don’t like the sound of my voice but it feels odd to hear it.
+When you listen to yourself again you’re prone to thinking of the perfect thing to say and unfairly judging whatever you said.
+It’s awkward is all I’m saying and I’m content with whoever I’m talking to knowing about the podcast but I’ll more freely give out a blog link.
+Voice vs. text.&lt;/p&gt;
+
+&lt;p&gt;Hearing my voice is more awkward than reading my writing.
+First impressions with text are easier.
+All you need is an elegant typeface and a good introduction.
+Vocal media is much more difficult to satisfy.
+Pronounce the words well and come up with the right words if, like in a podcast, no script is prepared.
+In the moment, it feels like the right thing; but part of the brain is occupied with reacting and responding to co-hosts than ensuring eloquency.
+As such, mistakes that work against the point will inevitably find a way in.&lt;/p&gt;
+
+&lt;p&gt;With both voice and text you’ll obviously want good ideas presented with whatever you’re saying–if not good ideas then funny or entertaining ideas.
+A blog allows me to think about the words more than a podcast does.
+To review what you say like you review written work you’d need to stop time.
+I’ll always be more satisfied with something I typed than stuff I said.
+Being able to edit is something I’m very grateful for.&lt;/p&gt;
+
+&lt;p&gt;Maybe in a decade I can look back on this if it’s still up.
+It’ll be interesting to see my thought processes and mindset and skill evolve over a long period.
+This is my time capsule.
+Or one of them.&lt;/p&gt;
+
+&lt;p&gt;I hope I get a Creative Cloud subscription in the future.&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">I don’t mean oranges.</summary></entry><entry><title type="html">The Supermarket Scramble Timeline</title><link href="https://slimer37.github.io//blog/2021/02/27/supermarket-scramble.html" rel="alternate" type="text/html" title="The Supermarket Scramble Timeline" /><published>2021-02-27T00:00:00-08:00</published><updated>2021-02-27T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2021/02/27/supermarket-scramble</id><content type="html" xml:base="https://slimer37.github.io//blog/2021/02/27/supermarket-scramble.html">&lt;p&gt;I started coding in the summer of 2019.&lt;/p&gt;
+
+&lt;p&gt;A long time before that I attended a Sylvan game-programming course after school.
+I got tired of Hour of Code in elementary and Scratch’s interface (though both are good for learning basic concepts) because I wanted to create something that was truly my own.&lt;/p&gt;
+
+&lt;p&gt;So that summer, I began learning Python with &lt;a href=&quot;https://www.codecademy.com/&quot;&gt;Codecademy&lt;/a&gt;.
+Partway in, I switched over to C++ then C# because that was what the Unity game engine used.
+When school started again I continued learning.
+Codecademy’s course didn’t cover stuff particular to Unity so when I finished the course I was on my own with Microsoft and Unity’s expansive documentation. And Google. And StackOverflow.
+If you’re unfamiliar, programming questions are answered on StackOverflow and nearly all, if not all programmers beginner to professional rely on it.&lt;/p&gt;
+
+&lt;p&gt;A couple of friends and I began a little company called Stupid Dino Studios to produce video games for.
+It fell apart after a bunch of months, but during its lifetime I began my first game.
+It was a text adventure for the Windows console.
+I never finished it because I wanted to move outside the console.&lt;/p&gt;
+
+&lt;p&gt;My first Unity project idea was way too ambitious for my experience.
+I wanted to make a store management game and called it &lt;em&gt;Supermarket Scramble&lt;/em&gt;.
+That was scrapped later because we realized there was a Shopkins product that shared the name.
+I still wanted the alliteration so I thought up something else.
+Its current name will be revealed later in the year.&lt;/p&gt;
+
+&lt;p&gt;The very first attempt at making the thing looked like this:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-mid-2019&quot;&gt;#1: Mid-2019&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/1.png&quot; alt=&quot;Attempt 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see the Stupid Dino Studios attribution in the lower-left corner.&lt;/p&gt;
+
+&lt;p&gt;I was most proud of the item-scanning system in this version but everything else in it was substantially inefficient.
+To allow the player to hold items, I forced the item to stay at a constant offset away from where the player was looking.
+This meant that no matter what, the item would remain floating in front of the player even if an environment element was in the way.
+Immovable objects would intersect the object.
+Physics objects would be pushed, no matter how heavy.
+The scanning system uses a detection box and the information placed on the monitor in-game was attached to each “product”.&lt;/p&gt;
+
+&lt;p&gt;Customers throughout the versions were a special marker of progress.
+The first version had a single orange block representing a customer.
+It was a lifeless physics object that could be tipped over.
+I decided to restart because it would take more effort to restructure all of my bad code than to just start over.
+Bad code (bad for unreadability, inefficiency, or unnecessary complexity) meant adding new features was difficult since they built upon the existing codebase.
+The next version brought huge improvements including the new name.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-late-2019&quot;&gt;#2: Late-2019&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2.png&quot; alt=&quot;Attempt 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Already there’s a noticeable jump in quality.
+These immaculate textures were sourced from &lt;a href=&quot;https://www.cgbookcase.com/&quot;&gt;cgbookcase&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These customers were pill-shaped and glowed around the edges.
+They could pathfind to a random item on a shelf and had randomized messages above their heads while walking around or if they ran into an object on the ground and reacted to the player throwing something at them.
+This was the first version with the ability to take orders but I didn’t implement a proper way for them to form lines so if multiple queued at a register they bunched up in front of it.
+That was broken.
+I kept learning through the mistakes and restarts; the main lesson of this version was navigation and 3D-modeling with Blender.&lt;/p&gt;
+
+&lt;p&gt;I replaced the crude monitor model from the first version with a separate crude model for this one, complete with a realistic perfect-grid keyboard.
+It also had scanner and water bottle models.&lt;/p&gt;
+
+&lt;p&gt;My modeling skills improved alongside my programming but for the following restart I took a bit of a break from Blender except to model easter eggs for my testers to find.
+I asked my friends to test these versions and inspect them for bugs, which, obviously, were numerous.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-mid-2020&quot;&gt;3: Mid-2020&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/3.png&quot; alt=&quot;Attempt 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from a jazzy checker pattern, mid-2020’s customers looked practically unchanged.
+Their behavior, however, was fundamentally different. They were able to form simple lines, for one thing.
+But when the line approached an obstacle it broke.
+I was using a very rudimentary system that took the position of the last customer in line (or, if there weren’t any, the position of the register) and added a certain number to calculate a position right behind them.&lt;/p&gt;
+
+&lt;p&gt;The problem was it didn’t account for obstacles.
+Customers would try to form a long enough line and if they weren’t able to pathfind towards the calculated point, they would start to bunch up around it.
+Positions that were calculated in front of or behind the obstacle had no issues but the line needed instead to be generated around the obstacle.
+I didn’t know how to do that so I didn’t do it.&lt;/p&gt;
+
+&lt;p&gt;A major feature in this version was a save system.
+I followed a tutorial to create a system that took whatever data I gave it, converted it into a binary file, and stored it on the player’s computer.
+It worked wonders but I didn’t have anything useful to store in it except for a variable that represented the amount of money you had.
+I experimented with an upgrade system as well which worked alright but I didn’t have a use for it at the time–upgrades were a feature that shouldn’t have been prioritized as much as it was.&lt;/p&gt;
+
+&lt;p&gt;There were sparse sound effects too and improved ordering but they were easy enough to implement so it’s not important.
+I took a break from making the game after that to work on a separate game (the last one on the &lt;a href=&quot;/upcoming&quot;&gt;project list&lt;/a&gt;) with my friends who I’d formed another company with.
+We eventually shelved it because progress was slow.
+After that, I went back to making my game.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-late-2020-to-now&quot;&gt;4: Late-2020 to now&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/4.png&quot; alt=&quot;Attempt 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that since this is a current work-in-progress, there will be inaccuracies over time with what I say here.&lt;/p&gt;
+
+&lt;p&gt;With custom textures, animated customer rigs, even better models, and sparkling graphics, the final version so far is on-track to being the one I eventually release.
+I recently went over the code again to improve it instead of restarting because I didn’t want to set up the project again.
+At that point, restarting is unprofitable.&lt;/p&gt;
+
+&lt;p&gt;These customers I made in Blender and set up to randomly generate their features.
+Skin color, clothing colors, an optional watch, hair styles, and hair color are all randomly picked.
+All their faces are identical: wide smile and dot eyes.&lt;/p&gt;
+
+&lt;p&gt;The line formation problems were addressed in this version.
+I coded a generator that started with a spot in front of the register for the first customer and used the old method of calculating a position behind that but, crucially, it had an extra check for collision with obstacles both in a radius around that point and between it and the position before it. 
+If an obstacle was detected it would test different positions left (or counter-clockwise) and right (or clockwise).
+Once it found a valid position it continued with the next position, up to a specified limit.
+The first checked direction is chosen at random for variety.
+It was fun to see it succeed for the first time.&lt;/p&gt;
+
+&lt;p&gt;Here’s a little visual for that:&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/assets/images/lineAlgorithmVisual.png&quot; alt=&quot;Line Algorithm Visual&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;p1, p2, etc. are the final points for customers to move towards when they line up.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My algorithm was perfect (arguably) but there were still some slight bugs with how customers arranged themselves.
+I still see it as an improvement.&lt;/p&gt;
+
+&lt;p&gt;Other things I’m proud of are ambient sound effects from YouTube’s audio library, physics-based item-holding (like Half-Life 2), and security cameras with post-processing effects.
+I’m working on better customer logic and containers as of this post.&lt;/p&gt;
+
+&lt;p&gt;An idea for another post is an in-depth look at the code for all the versions but 1, a lot of files are gone and 2, I’m not sure if anyone would be interested.
+If that’s something you would or wouldn’t want to see, I’d appreciate you answering the poll at the end of this.
+By the way, if you want to play the in-progress game and you’re able to contact me on anything other than the e-mail provided here, just ask.&lt;/p&gt;
+
+&lt;p&gt;So there–my 2021-appropriately-sized blog post. Over a thousand words. 👏&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*The dated headings for each picture are estimates, accurate within a few months–some of the files are gone so I couldn’t get exact dates for each attempt. What I did get was from the file creation date in Windows.&lt;/em&gt;&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">I started coding in the summer of 2019.</summary></entry><entry><title type="html">On the Log</title><link href="https://slimer37.github.io//blog/2021/02/27/on-the-log.html" rel="alternate" type="text/html" title="On the Log" /><published>2021-02-27T00:00:00-08:00</published><updated>2021-02-27T00:00:00-08:00</updated><id>https://slimer37.github.io//blog/2021/02/27/on-the-log</id><content type="html" xml:base="https://slimer37.github.io//blog/2021/02/27/on-the-log.html">&lt;p&gt;All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs.
+The workload isn’t worth it for me but I do love watching others’; especially BWDev’s Lumbermill videos.
+They’re absolutely fascinating. &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_kyBQFgfqJw&amp;amp;list=PLQrWgCpGF5B5e3btoq7nJj0bakRL1qcjD&quot;&gt;See the playlist&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A part of why I find these so entertaining is because I want to do everything he’s doing–the fact that he’s making a management game brings me all the more joy.
+It’s the creation of a game I’d want to play.
+He details every step and lets you in on the thinking process before you finally see the beautiful product after failed attempts.&lt;/p&gt;
+
+&lt;p&gt;I can relate to that process because I’ve been through about a year of it.
+You keep learning as a programmer and Google keeps holding your hand through the errors.
+I plan on having this blog consist of a bunch of documented development just to show the reader how I come up with things and to hopefully provide some interesting insight into the not-so-terrible world of game development.&lt;/p&gt;
+
+&lt;p&gt;I wanna show you the bounds of possibility &lt;em&gt;and&lt;/em&gt; frustration with coding a big project like this.&lt;/p&gt;
+
+&lt;p&gt;I’ve got &lt;a href=&quot;/upcoming&quot;&gt;3 projects&lt;/a&gt; on the to-do list right now and I’ve put significant work into just the first–the store game.
+The store game is a special learning experience for me because, archived, I have a handful of attempts at making the thing that were cut short because of garbage code which led to stagnant progress.
+Looking through those in detail would be fun.
+Better put it on the backlog.&lt;/p&gt;
+
+&lt;p&gt;I didn’t write this blog post in a sitting near midnight–I didn’t &lt;em&gt;get&lt;/em&gt; to. But I wanted to.
+I was in the mood for work, having written the &lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt;, &lt;a href=&quot;/podcast&quot;&gt;podcast&lt;/a&gt;, and &lt;a href=&quot;/upcoming&quot;&gt;projects&lt;/a&gt; page.
+That writing session brought me up to about 5 medium paragraphs; the rest was completed the next morning.
+I don’t know if that appears impressive, but I hope it demonstrates how much fun I find in doing work that isn’t homework.
+Homework could be fun but I rarely see that in AP classes; any class now, really.
+Going back to physical I’ll no doubt see something I’ll enjoy completing, like this group project from English Honors:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/lotf.jpg&quot; alt=&quot;A creative project on Lord of the Flies&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Writing an employee handbook for a mock-company I formed with some friends also falls under this “fun work” category.&lt;/p&gt;
+
+&lt;p&gt;As much as I enjoyed writing all the stuff setting up this blog I doubt I would care enough to uphold a schedule.
+If I had to have one it would function more as a suggestion.
+About-weekly posts is the best I can offer.
+Either that or next week I’ll decide to do more than one again.
+It depends on my free time.
+I always have free time but if work blocks work, the blog gets held up.&lt;/p&gt;
+
+&lt;p&gt;Why am I doing more than one this weekend?
+Google Ads require that I have some content before I host them which is perfectly reasonable and it pushed me to sit down and fulfill the criterion.
+I doubt they require more than one blog post but I’ll play it safe.
+Besides, I like making these.&lt;/p&gt;
+
+&lt;p&gt;I think this is the appropriate blog post length.
+According to a Google search, it fits in 2015; present-day asks for 1000+ words.&lt;/p&gt;
+
+&lt;p&gt;If I can write about my experiences in a mildly-engaging way that’ll be fine and I won’t feel the need to stretch it out.
+There’s where the first post ends.&lt;/p&gt;</content><author><name>Alfred M</name></author><summary type="html">All of this was made to post devlogs (developer + logs) because I would prefer not to create laborious video devlogs. The workload isn’t worth it for me but I do love watching others’; especially BWDev’s Lumbermill videos. They’re absolutely fascinating. See the playlist.</summary></entry></feed>
