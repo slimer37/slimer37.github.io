@@ -25,11 +25,26 @@
   <meta name="msapplication-square150x150logo" content="assets/favicomatic/mstile-150x150.png" />
   <meta name="msapplication-wide310x150logo" content="assets/favicomatic/mstile-310x150.png" />
   <meta name="msapplication-square310x310logo" content="assets/favicomatic/mstile-310x310.png" />
+
+  <script>
+    window.onscroll = scrollFunction;
+
+    function scrollFunction() {
+      const scrollThreshold = 50;
+      let header = document.getElementById("header");
+
+      if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+        header.style.height = "50px";
+      } else {
+        header.style.height = "120px";
+      }
+    }
+  </script>
 </head>
 
 <body>
-  <header>
-    <img src="assets/images/logo.png" height="128" />
+  <header id="header">
+    <img src="assets/images/logo.png" class="scaled-logo"/>
     <div class="nav-btn-group">
       <a class="nav-btn" href="./blog">Blog</a>
       <a class="nav-btn" href="./portfolio">Portfolio</a>
@@ -39,7 +54,41 @@
 
   <div class="content" style="text-align: center">
     <p>
-      There'll be new pages, reorganization, and legitimate content.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam, mauris non efficitur blandit, lorem orci
+      pellentesque magna, sit amet pretium augue sem eu massa. Nam quis lorem rhoncus, commodo leo sit amet, euismod
+      massa. Cras tincidunt, ex vel interdum viverra, nunc tellus facilisis ligula, nec vestibulum justo eros eget
+      massa. Fusce est mi, eleifend eget sapien et, tristique sollicitudin lectus. Curabitur finibus fermentum ipsum. Ut
+      rutrum, mi eget volutpat hendrerit, diam libero aliquet massa, vel volutpat lacus urna eleifend est. Pellentesque
+      iaculis hendrerit suscipit. Phasellus ullamcorper nulla nisl, nec lobortis lacus sodales in. Integer iaculis urna
+      non neque eleifend, sed gravida nisl laoreet.
+    </p>
+    <p>
+      Nulla id molestie dolor. Nulla at vehicula nisi. In efficitur nec mauris eget consequat. Duis ultricies, justo sed
+      posuere dictum, tortor ex vehicula odio, at tincidunt risus urna et nulla. Sed vehicula ante lacus, nec sagittis
+      nibh laoreet convallis. Suspendisse finibus convallis dui ac interdum. Mauris imperdiet pretium aliquam. Duis
+      rhoncus sollicitudin mauris eu faucibus.
+    </p>
+    <p>
+      Aliquam at aliquam nisl. Morbi ullamcorper varius tellus nec interdum. Nunc eget faucibus ante. Integer eleifend
+      ipsum libero, sed mollis massa dapibus vitae. Fusce ultrices facilisis ipsum sed facilisis. Phasellus fermentum et
+      eros et hendrerit. Quisque augue arcu, tincidunt nec sollicitudin in, bibendum eget ipsum. Nulla vel eleifend
+      velit. Vestibulum quis justo eros. In hac habitasse platea dictumst. Donec mollis sit amet ligula at consectetur.
+      Duis ut metus neque. Pellentesque justo tellus, elementum in tempus et, rhoncus ultrices lorem. Donec feugiat,
+      urna eget efficitur vehicula, lacus sem accumsan felis, quis pretium dolor ante nec sapien.
+    </p>
+    <p>
+      Sed tortor felis, blandit eu dignissim hendrerit, tincidunt quis ante. Ut vel fringilla libero. Curabitur risus
+      elit, vestibulum et commodo at, mattis nec dolor. Nullam sem turpis, accumsan vitae sollicitudin in, egestas
+      vehicula ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut id
+      rutrum metus, eu feugiat quam. Nunc imperdiet justo nec sodales commodo.
+    </p>
+    <p>
+      Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce a blandit erat. Quisque blandit eros id
+      volutpat interdum. Sed tempus lobortis ullamcorper. Nullam justo mauris, congue at molestie non, ornare eget diam.
+      Quisque ullamcorper diam libero, sed commodo leo pulvinar sed. Integer aliquam sapien lacus, vitae congue orci
+      sollicitudin sit amet. Ut ultrices turpis eu sem maximus, ut dictum quam rhoncus. Sed non massa in arcu faucibus
+      dictum id a lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper iaculis ante, eu
+      rutrum libero ultricies ac. Mauris sit amet faucibus libero, quis volutpat purus.
     </p>
   </div>
 
