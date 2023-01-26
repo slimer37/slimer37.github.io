@@ -69,10 +69,13 @@ header {
 
 .nav-btn {
   background-color: #718093;
-  border: 0px;
   height: 100%;
   align-self: flex-end;
   color: #f5f6fa;
+  
+  border: 0px solid;
+  box-sizing: border-box;
+  border-radius: 2px;
 
   display: flex;
   align-items: center;
@@ -86,10 +89,17 @@ header {
 
   font-style: normal;
   text-decoration: none;
+
+  transition: 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)
 }
 
 .nav-btn:hover {
+  border: 3px solid;
+  box-sizing: border-box;
   background-color: #7f8fa6;
+
+  font-size: 20px;
+  color: #fbc531;
 }
 
 .nav-btn:active {
