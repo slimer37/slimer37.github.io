@@ -30,11 +30,13 @@ body {
 
 .content {
   flex: 1 1 auto;
+  padding: 10px;
 }
 
 .scaled-logo {
   height: auto;
   max-width: 100%;
+  margin: -5px 0px;
 }
 
 header {
@@ -42,11 +44,10 @@ header {
   width: 100%;
   top: 0;
 
-  height: 120px;
+  height: 80px;
 
   background-color: #353b48;
   color: white;
-  padding: 10px 10px;
 
   border-top: 5px solid #2f3640;
   border-bottom: 5px solid #2f3640;
@@ -63,20 +64,20 @@ header {
 .nav-btn-group {
   display: flex;
   gap: 5px;
+  margin: 20px 10px;
 }
 
 .nav-btn {
   background-color: #718093;
   border: 0px;
-  height: 50px;
+  height: 100%;
   align-self: flex-end;
   color: #f5f6fa;
 
   display: flex;
   align-items: center;
+  align-self: center;
   justify-content: center;
-
-  margin: 0;
 
   min-width: 100px;
 
