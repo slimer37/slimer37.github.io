@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
   
 header_pages:
+  - exit.markdown
   - about.markdown
   - upcoming.markdown
   - podcast.markdown
