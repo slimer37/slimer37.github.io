@@ -36,6 +36,11 @@ body {
   height: auto;
   max-width: 100%;
   margin: -5px 0px;
+  transition: 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.scaled-logo:hover {
+  margin: -8px 0px;
 }
 
 header {
