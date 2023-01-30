@@ -67,7 +67,7 @@ header {
 
 .shrunk-header {
   background-color: #353b48f1;
-  height: 50px !important;
+  height: 50px;
   font-size: 12px;
 }
 
