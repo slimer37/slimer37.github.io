@@ -31,7 +31,7 @@
 
     box-shadow: 5px 5px 5px #00000020;
     
-    transition: 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transition: 0.2s;
 }
 
 .project-tile:hover {
