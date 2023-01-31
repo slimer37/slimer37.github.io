@@ -31,6 +31,24 @@
     color: white;
 }
 
+.disabled {
+    background: repeating-linear-gradient(-45deg,
+            white,
+            white 30px,
+            #fbc531 30px,
+            #fbc531 60px);
+}
+
+.wip {
+    margin: auto;
+    text-align: center;
+
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Playfair Display', cursive;
+    font-size: 2em;
+}
+
 .pixel-art {
     image-rendering: pixelated;
 }
