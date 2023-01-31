@@ -20,6 +20,7 @@
     overflow: hidden;
 
     min-height: 300px;
+    min-width: 25vw;
 
     box-shadow: 5px 5px 5px #dcdde1;
 }
@@ -109,8 +110,6 @@
 
 }
 
-.emayhem-title {
-    background-color: rgb(39, 39, 58);
-    padding: 10% 0px;
-    border-radius: 5px;
+.title {
+    margin: 10% 0px;
 }
