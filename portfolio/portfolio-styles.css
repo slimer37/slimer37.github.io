@@ -2,8 +2,6 @@
     display: inline-grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-
-    z-index: -1;
 }
 
 .project-tile {
