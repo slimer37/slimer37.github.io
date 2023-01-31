@@ -31,12 +31,14 @@
     color: white;
 }
 
-.disabled {
+.wip-tile {
     background: repeating-linear-gradient(-45deg,
-            white,
-            white 30px,
-            #fbc531 30px,
-            #fbc531 60px);
+            #718093,
+            #718093 30px,
+            #7f8fa6 30px,
+            #7f8fa6 60px);
+
+    color: white;
 }
 
 .wip {
@@ -47,6 +49,19 @@
     font-weight: bold;
     font-family: 'Playfair Display', cursive;
     font-size: 2em;
+}
+
+.empty-tile {
+    background-color: #718093;
+    color: #353b48;
+}
+
+.empty-tile-content {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Playfair Display', cursive;
+    font-size: 4em;
 }
 
 .pixel-art {
