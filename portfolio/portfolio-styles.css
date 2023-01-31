@@ -30,6 +30,10 @@
     color: white;
 }
 
+.cc-tile {
+    background-color: #fbc531;
+}
+
 .wip-tile {
     background: repeating-linear-gradient(-45deg,
             #718093,
