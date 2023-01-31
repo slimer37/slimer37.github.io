@@ -4,6 +4,7 @@
     justify-content: space-evenly;
 
     margin: 0;
+    max-height: 500px;
 }
 
 .project-tile {
@@ -17,6 +18,8 @@
     padding: 20px;
     text-decoration: none;
 
+    border-radius: 5px;
+
     font: 20px "Secular One", sans-serif;
 
     position: relative;
@@ -26,7 +29,15 @@
     min-height: 300px;
     min-width: 25vw;
 
-    box-shadow: 5px 5px 5px #dcdde1;
+    box-shadow: 5px 5px 5px #00000020;
+    
+    transition: 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.project-tile:hover {
+    transform: scale(0.995);
+    box-shadow: 2px 2px 2px #00000020;
+    border-radius: 10px;
 }
 
 .emayhem-project-tile {
@@ -34,8 +45,21 @@
     color: white;
 }
 
+.title {
+    margin: auto;
+    width: 90%;
+}
+
 .cc-tile {
-    background-color: #fbc531;
+    background: url("thumbs/ccthumb.png");
+    background-size: 100%;
+    max-width: 50vw;
+    min-height: 450px;
+}
+
+.cc-thumb {
+    margin: auto;
+    height: 95%;
 }
 
 .wip-tile {
@@ -116,8 +140,4 @@
         right: -64px;
     }
 
-}
-
-.title {
-    margin: 10% 0px;
 }
