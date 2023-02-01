@@ -66,6 +66,14 @@
     max-height: 400px;
 }
 
+.gallery-tile {
+    background: url("gallery/mobboss.png");
+    background-size: cover;
+    background-position-y: 50%;
+
+    color: white;
+}
+
 .cc-thumb {
     margin: auto;
     height: 95%;
