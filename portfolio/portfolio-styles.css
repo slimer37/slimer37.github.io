@@ -41,7 +41,10 @@
 }
 
 .emayhem-project-tile {
-    background-color: rgb(39, 39, 58);
+    background: url("thumbs/embackground.png");
+    background-size: cover;
+    background-position-x: center;
+
     color: white;
 }
 
@@ -117,19 +120,19 @@
 }
 
 .duppet {
-    width: 32px;
-    height: 64px;
+    width: 48px;
+    height: 96px;
 
     background: url("assets/engineersprites.png");
     background-size: 400%;
 
-    animation: duppet-flipbook 0.75s steps(4) infinite;
+    animation: duppet-flipbook 1s steps(4) infinite;
 }
 
 .duppet-container {
     position: absolute;
 
-    bottom: 0px;
+    bottom: 26px;
 
     animation: duppet-walk 10s linear infinite;
 }
