@@ -35,7 +35,8 @@
 }
 
 .project-tile:hover {
-    transform: scale(0.995);
+    margin: 3px;
+    padding: 22px;
     box-shadow: 2px 2px 2px #00000020;
     border-radius: 10px;
 }
