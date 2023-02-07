@@ -1,0 +1,73 @@
+.gallery-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: 0;
+
+    flex-wrap: wrap;
+}
+
+.art-tile video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.over-video {
+    z-index: 1;
+    position: relative;
+}
+
+.art-tile p {
+    margin: 0;
+}
+
+.art-tile {
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    background-color: #2f3640;
+    color: white;
+
+    margin: 5px;
+    padding: 20px;
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font: 20px "Secular One", sans-serif;
+
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 300px;
+    min-width: 300px;
+
+    max-height: 500px;
+    max-width: 500px;
+
+    box-shadow: 5px 5px 5px #00000020;
+    
+    transition: 0.2s;
+
+    background-size: cover;
+    background-position: center;
+
+    text-shadow: black 0 0 5px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.art-tile:hover {
+    margin: 3px;
+    padding: 22px;
+    box-shadow: 2px 2px 2px #00000020;
+    border-radius: 10px;
+}
