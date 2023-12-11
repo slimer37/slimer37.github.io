@@ -113,14 +113,9 @@ header {
 }
 
 .nav-btn {
-  font-family: 'Jost', sans-serif;
-
-  background-color: var(--secondary);
   height: 100%;
-  color: var(--text);
 
-  box-sizing: border-box;
-  border-radius: 0px;
+  padding: 0 !important;
 
   display: flex;
   align-items: center;
@@ -128,24 +123,6 @@ header {
   justify-content: center;
 
   width: 150px;
-
-  font-size: 1.1em;
-  font-style: normal;
-  text-decoration: none;
-
-  transition: 100ms cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-.nav-btn:hover {
-  border-bottom: 3px solid var(--accent);
-  background-color: var(--sec-bg);
-
-  font-size: 1.4em;
-  color: var(--accent);
-}
-
-.nav-btn:active {
-  background-color: var(--accent);
 }
 
 footer {
@@ -191,7 +168,7 @@ footer {
 
   padding: 5px 10px;
 
-  font-size: 1em;
+  font-size: 1.2em;
   font-style: normal;
   text-decoration: none;
 
@@ -202,6 +179,10 @@ footer {
   border-bottom: 3px solid var(--accent);
   background-color: var(--sec-bg);
 
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: var(--accent);
+}
+
+.button:active {
+  background-color: var(--accent);
 }
