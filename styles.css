@@ -127,9 +127,9 @@ header {
   align-self: center;
   justify-content: center;
 
-  min-width: 100px;
+  width: 150px;
 
-  font-size: 1em;
+  font-size: 1.1em;
   font-style: normal;
   text-decoration: none;
 
@@ -140,7 +140,7 @@ header {
   border-bottom: 3px solid var(--accent);
   background-color: var(--sec-bg);
 
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: var(--accent);
 }
 
