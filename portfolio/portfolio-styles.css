@@ -12,7 +12,7 @@
 
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--secondary);
     color: black;
     margin: 5px;
     padding: 20px;
@@ -46,7 +46,7 @@
     background-size: cover;
     background-position-x: center;
 
-    color: white;
+    color: var(--text);
 }
 
 .shadow {
@@ -75,7 +75,7 @@
     background-size: cover;
     background-position: center;
 
-    color: white;
+    color: var(--text);
 }
 
 .cc-thumb {
@@ -85,12 +85,12 @@
 
 .wip-tile {
     background: repeating-linear-gradient(-45deg,
-            #718093,
-            #718093 30px,
-            #7f8fa6 30px,
-            #7f8fa6 60px);
+            var(--secondary),
+            var(--secondary) 30px,
+            var(--sec-bg) 30px,
+            var(--sec-bg) 60px);
 
-    color: #2f3640;
+    color: var(--text);
 }
 
 .wip {
@@ -104,8 +104,8 @@
 }
 
 .empty-tile {
-    background-color: #718093;
-    color: #2f3640;
+    background-color: var(--secondary);
+    color: var(--text);
 }
 
 .empty-tile-content {

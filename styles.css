@@ -4,6 +4,15 @@
 /* Secular One (slimer37 font) */
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+:root {
+  --bg: #080A08;
+  --sec-bg: #0B170B;
+  --secondary: #2D7863;
+  --primary: #2DAA27;
+  --text: #EAEFE9;
+  --accent: #5DC3B9;
+}
+
 h1,
 h2 {
   font-family: "Secular One", sans-serif;
@@ -16,7 +25,7 @@ html {
 }
 
 body {
-  background-color: #f5f6fa;
+  background-color: var(--bg);
   font-family: 'Roboto', sans-serif;
 
   height: 100%;
@@ -24,23 +33,25 @@ body {
 
   display: flex;
   flex-direction: column;
+
+  color: var(--text);
 }
 
 .content {
   flex: 1 1 auto;
   padding: 10px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .scaled-logo {
   height: auto;
   max-width: 100%;
-  margin: -5px 0px;
+  padding-left: 15px;
   transition: 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
 .scaled-logo:hover {
-  margin: -8px 0px;
+  margin: -2px;
 }
 
 header {
@@ -48,13 +59,13 @@ header {
   width: 100%;
   top: 0;
 
-  height: 80px;
+  height: 60px;
 
-  background-color: #353b48;
-  color: white;
+  background-color: var(--bg);
 
-  border-top: 5px solid #2f3640;
-  border-bottom: 5px solid #2f3640;
+  border-bottom: dashed gray 1px;
+
+  padding: 10px 0px;
 
   display: flex;
 
@@ -68,27 +79,26 @@ header {
 }
 
 .shrunk-header {
-  background-color: #353b48f1;
-  height: 50px;
+  height: 40px;
+  padding: 0;
   font-size: 12px;
 }
 
 .nav-btn-group {
   display: flex;
   gap: 5px;
-  margin: 10px 10px;
+  margin-right: 15px;
   align-self: center;
 
   height: 70%;
 }
 
 .nav-btn {
-  background-color: #718093;
+  background-color: var(--secondary);
   height: 100%;
   align-self: flex-end;
   color: #f5f6fa;
 
-  border: 0px solid #fbc531;
   box-sizing: border-box;
   border-radius: 0px;
 
@@ -110,30 +120,27 @@ header {
 }
 
 .nav-btn:hover {
-  border-bottom: 3px solid;
-  background-color: #7f8fa6;
+  border-bottom: 3px solid var(--accent);
+  background-color: var(--sec-bg);
 
-  font-size: 1.3em;
-  color: #fbc531;
+  font-size: 1.2em;
+  color: var(--accent);
 }
 
 .nav-btn:active {
-  background-color: #9baec9;
+  background-color: var(--accent);
 }
 
 footer {
-  background-color: #7f8fa6;
-  padding: 10px;
-  color: white;
-
-  border-top: 5px solid #718093;
-  border-bottom: 5px solid #718093;
+  background-image: linear-gradient(var(--bg), var(--sec-bg));
+  padding: 40px 0px;
+  color: var(--text);
 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 
-  min-height: 60px;
+  height: 20px;
 }
 
 .footer-column {
@@ -150,7 +157,7 @@ footer {
 
 .footer-link {
   text-decoration: none;
-  color: #fbc531;
+  color: var(--accent);
 }
 
 .invert {
