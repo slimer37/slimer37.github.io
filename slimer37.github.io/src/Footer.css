@@ -1,0 +1,29 @@
+footer {
+    font-family: 'Jost', sans-serif;
+    background-image: linear-gradient(var(--bg), var(--sec-bg));
+    padding: 40px 0px;
+    color: var(--text);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    height: 20px;
+}
+
+.footer-column {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-item {
+    margin: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--accent);
+}
