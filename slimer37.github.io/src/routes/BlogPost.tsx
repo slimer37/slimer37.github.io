@@ -9,12 +9,12 @@ import Footer from "../components/Footer";
 
 import './post.css'
 
-const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-
 function BlogPost() {
   const [markdown, setMarkdown] = useState("Loading")
 
   const { year, month, day, name } = useParams();
+
+  const dateString = new Date(`${year}/${month}/${day}`).toLocaleString('en-us', { year: 'numeric', month: 'long', day: 'numeric'});
 
   const [title, setTitle] = useState("")
 
@@ -42,7 +42,7 @@ function BlogPost() {
         <div className="center">
           <div className="post-container">
             <h1 className="title">{title?.replace('-', ' ')}</h1>
-            <p className="post-date">{`${months[parseInt(month!) - 1]} ${day}, ${year}`}</p>
+            <p className="post-date">{dateString}</p>
             <div className="post">
               <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>
             </div>
