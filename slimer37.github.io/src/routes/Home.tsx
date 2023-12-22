@@ -1,7 +1,7 @@
 function Home() {
   return (
     <>
-      <div className="content" style={{ textAlign: 'center' }}>
+      <div style={{ textAlign: 'center' }}>
         <h1>this is Alfred's website</h1>
 
         <p>under construction</p>

@@ -7,7 +7,9 @@ function Root() {
   return (
     <>
       <Header />
-      <Home />
+      <div className="content">
+        <Home />
+      </div>
       <Footer />
     </>
   );
