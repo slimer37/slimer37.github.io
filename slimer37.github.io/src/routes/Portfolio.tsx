@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import './portfolio.css'
 
 function Portfolio() {
+  document.title = "Portfolio"
+  
   return (
     <>
       <div className="row">

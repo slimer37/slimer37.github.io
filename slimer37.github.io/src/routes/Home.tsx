@@ -1,4 +1,6 @@
 function Home() {
+  document.title = "Home"
+
   return (
     <>
       <div style={{ textAlign: 'center' }}>

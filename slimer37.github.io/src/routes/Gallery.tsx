@@ -1,6 +1,8 @@
 import './gallery.css'
 
 function Gallery() {
+  document.title = "Gallery"
+  
   return (
     <>
       <h1 style={{ textAlign: 'center' }}>3D Art Gallery</h1>

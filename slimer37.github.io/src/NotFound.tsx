@@ -29,6 +29,8 @@ function NotFound() {
     const errRef = useRef<HTMLHeadingElement>(null)
 
     useEffect(() => {
+        document.title = "404"
+
         let text = messages[Math.floor(Math.random() * messages.length)]
 
         const message = messageRef.current!
