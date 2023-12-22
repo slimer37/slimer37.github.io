@@ -6,7 +6,7 @@ function Header() {
   return (
     <header id="header">
       <div className="header-group">
-        <a href="/index.html" className="scaled-logo">
+        <a href="/" className="scaled-logo">
           <img src="/src/assets/images/logo.png" style={{ height: "100%" }} />
         </a>
         <nav className="nav-btn-group">
