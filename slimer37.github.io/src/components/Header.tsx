@@ -18,6 +18,7 @@ function Header({ shrinks = false }: HeaderProps) {
     useEffect(() => {
       document.getElementById('header')?.setAttribute('style', 'position: absolute')
     })
+    window.removeEventListener('scroll', shrinkWhenScrolled);
   }
 
   return (
