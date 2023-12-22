@@ -41,10 +41,6 @@
     color: var(--text)
 }
 
-.post a {
-    color: var(--secondary);
-}
-
 #source-link {
     text-decoration: none;
     color: #4f5e4f;
