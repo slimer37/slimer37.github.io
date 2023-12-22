@@ -1,8 +1,32 @@
+import './portfolio.css'
+
 function Portfolio() {
   return (
     <>
-      <div style={{ textAlign: 'center' }}>
-        <h1>Portfolio</h1>
+      <div className="row">
+        <a href="https://slimer37.itch.io/gtmk-jam-2021" className="project-tile emayhem-project-tile">
+          GMTK 2021 Entry
+          <img className="em-title pixel-art shadow" src="/src/assets/portfolio/thumbs/titletile.png" />
+          <div className="duppet-container">
+            <div className="duppet pixel-art"></div>
+          </div>
+        </a>
+        <a href="gallery" className="project-tile gallery-tile">
+          3D Gallery
+        </a>
+        <a href="https://slimer37.itch.io/early-store-game" className="project-tile cc-tile">
+          Counter Chaos (Legacy)
+          <img className="cc-title shadow" src="/src/assets/portfolio/thumbs/cclogo.png" />
+        </a>
+      </div>
+      <div className="row">
+        <a className="project-tile wip-tile">
+          SOME TWINSTICK
+          <p className="wip">Work<br />In<br />Progress</p>
+        </a>
+        <a className="project-tile empty-tile">
+          <div className="empty-tile-content">:)</div>
+        </a>
       </div>
     </>
   )

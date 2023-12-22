@@ -43,7 +43,7 @@
 }
 
 .emayhem-project-tile {
-    background: url("thumbs/embackground.png");
+    background: url("/src/assets/portfolio/thumbs/embackground.png");
     background-size: cover;
     background-position-x: center;
 
@@ -65,14 +65,14 @@
 }
 
 .cc-tile {
-    background: url("thumbs/ccthumb.png");
+    background: url("/src/assets/portfolio/thumbs/ccthumb.png");
     background-size: cover;
     max-width: 50vw;
     max-height: 400px;
 }
 
 .gallery-tile {
-    background: url("gallery/mobboss.png");
+    background: url("/src/assets/portfolio/gallery/mobboss.png");
     background-size: cover;
     background-position: center;
 
@@ -124,7 +124,7 @@
     width: 48px;
     height: 96px;
 
-    background: url("assets/engineersprites.png");
+    background: url("/src/assets/portfolio/assets/engineersprites.png");
     background-size: 400%;
 
     animation: duppet-flipbook 1s steps(4) infinite;
