@@ -18,7 +18,7 @@ function Header() {
         <nav className="nav-btn-group">
           <NavLink className={({ isActive }) => NavButtonStyle(isActive)} to="/blog">Blog</NavLink>
           <NavLink className={({ isActive }) => NavButtonStyle(isActive)} to="/portfolio">Portfolio</NavLink>
-          <NavLink className={({ isActive }) => NavButtonStyle(isActive)} to="https://slimer37.itch.io">Games</NavLink>
+          <a className="nav-btn button" href="https://slimer37.itch.io">Itch</a>
         </nav>
       </div>
     </header>
