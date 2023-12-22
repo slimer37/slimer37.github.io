@@ -26,6 +26,7 @@ function BlogPost() {
     const eol = text.indexOf('\n')
     const title = text.substring(0, eol)
     setTitle(title)
+    document.title = title
     setMarkdown(text.substring(eol + 1).trimStart())
   })
 
