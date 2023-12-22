@@ -1,13 +1,24 @@
 import { NavLink, Link } from 'react-router-dom'
 
 import './Header.css'
+import { useEffect } from 'react';
 
 function NavButtonStyle(isActive: boolean) {
   return "nav-btn button " + (isActive ? "active" : "");
 }
 
-function Header() {
-  window.addEventListener('scroll', shrinkWhenScrolled);
+type HeaderProps = {
+  shrinks?: boolean;
+}
+
+function Header({ shrinks = false }: HeaderProps) {
+  if (shrinks) {
+    window.addEventListener('scroll', shrinkWhenScrolled);
+  } else {
+    useEffect(() => {
+      document.getElementById('header')?.setAttribute('style', 'position: absolute')
+    })
+  }
 
   return (
     <header id="header">

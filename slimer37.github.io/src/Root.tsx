@@ -6,7 +6,7 @@ import Footer from './components/Footer.tsx'
 function Root() {
   return (
     <>
-      <Header />
+      <Header shrinks={true} />
       <div className="content">
         <Outlet />
       </div>

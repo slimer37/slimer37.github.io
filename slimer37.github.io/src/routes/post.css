@@ -45,7 +45,7 @@
     color: var(--secondary);
 }
 
-.source-link {
+#source-link {
     text-decoration: none;
     color: #4f5e4f;
     font-size: 0.9em;

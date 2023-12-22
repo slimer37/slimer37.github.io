@@ -1,8 +1,11 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 import Markdown from 'react-markdown'
 import { useState } from "react";
 import remarkGfm from 'remark-gfm'
+
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 import './post.css'
 
@@ -13,13 +16,15 @@ function BlogPost() {
 
   const { year, month, day, name } = useParams();
 
-  const [title, setTitle] = useState(name)
+  const [title, setTitle] = useState("")
 
   const path = `/posts/${year}-${month}-${day}-${name}.markdown`;
+  const navigate = useNavigate();
 
   fetch(path).then(response => response.text()).then(text => {
     if (text.startsWith("<!")) {
-      setMarkdown("Error while loading file: " + path)
+      // navigate somewhere that doesn't exist
+      navigate("/invalid-post")
       return
     }
     text = text.replace('--', '—')
@@ -31,17 +36,23 @@ function BlogPost() {
   })
 
   return (
-    <div className="center">
-      <div className="post-container">
-        <h1 className="title">{title?.replace('-', ' ')}</h1>
-        <p className="post-date">{`${months[parseInt(month!) - 1]} ${day}, ${year}`}</p>
-        <div className="post">
-          <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>
+    <>
+      <Header shrinks={false} />
+      <div className="content">
+        <div className="center">
+          <div className="post-container">
+            <h1 className="title">{title?.replace('-', ' ')}</h1>
+            <p className="post-date">{`${months[parseInt(month!) - 1]} ${day}, ${year}`}</p>
+            <div className="post">
+              <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>
+            </div>
+          </div>
+          <br />
+          <a id="source-link" href={path}>Generated from Markdown</a>
         </div>
       </div>
-      <br />
-      <a className="source-link" href={path}>Generated from Markdown</a>
-    </div>
+      <Footer />
+    </>
   )
 }
 

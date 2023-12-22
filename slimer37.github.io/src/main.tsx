@@ -33,13 +33,13 @@ const router = createBrowserRouter([
       {
         path: "gallery",
         element: <Gallery />
-      },
-      {
-        path: "post/:year/:month/:day/:name",
-        element: <BlogPost />
       }
     ]
   },
+  {
+    path: "/post/:year/:month/:day/:name",
+    element: <BlogPost />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
