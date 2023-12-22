@@ -1,6 +1,10 @@
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 import './Header.css'
+
+function NavButtonStyle(isActive : boolean) {
+  return "nav-btn button " + (isActive ? "active" : "");
+}
 
 function Header() {
   window.addEventListener('scroll', shrinkWhenScrolled);
@@ -12,9 +16,9 @@ function Header() {
           <img src="/src/assets/images/logo.png" style={{ height: "100%" }} />
         </Link>
         <nav className="nav-btn-group">
-          <Link className="nav-btn button" to="/blog">Blog</Link>
-          <Link className="nav-btn button" to="/portfolio">Portfolio</Link>
-          <Link className="nav-btn button" to="https://slimer37.itch.io">Games</Link>
+          <NavLink className={({ isActive }) => NavButtonStyle(isActive)} to="/blog">Blog</NavLink>
+          <NavLink className={({ isActive }) => NavButtonStyle(isActive)} to="/portfolio">Portfolio</NavLink>
+          <NavLink className={({ isActive }) => NavButtonStyle(isActive)} to="https://slimer37.itch.io">Games</NavLink>
         </nav>
       </div>
     </header>
