@@ -26,12 +26,12 @@ function Post({ route }: PostProps) {
     setMarkdown(text.substring(eol + 1, text.indexOf('.', eol + 1) + 1).trimStart())
   })
 
-  const dateString = new Date(route.substring(0, route.lastIndexOf('/'))).toLocaleString('en-us', { year: 'numeric', month: 'long', day: 'numeric'});
+  const dateString = new Date(route.substring(0, route.lastIndexOf('/'))).toLocaleString('en-us', { year: 'numeric', month: 'long', day: 'numeric' });
 
   return (
     <Link to={'/post/' + route} className="post-link">
       <p className="date">{dateString}</p>
-      <h2>{title}</h2>  
+      <h2>{title}</h2>
       <Markdown className="summary">{markdown}</Markdown>
       <p className="source-route">{route}</p>
     </Link>
@@ -44,7 +44,8 @@ function Blog() {
   return (
     <>
       <div className="list">
-        <h2 style={{fontSize: '2em', margin: 0}}>Frontlog</h2>
+        <h2 style={{ fontSize: '2em', margin: 0 }}>Frontlog</h2>
+        <p>The opposite of a backlog. I don't make posts often (ironically).</p>
         <Post route="2023/1/17/enter-return" />
         <Post route="2022/1/17/what-is-the-deal" />
         <Post route="2021/2/27/the-supermarket-scramble-timeline" />
