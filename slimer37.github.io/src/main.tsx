@@ -11,11 +11,24 @@ import {
 import Root from './Root.tsx'
 import NotFound from './NotFound.tsx'
 
+import Home from './routes/Home.tsx'
+import Portfolio from './routes/Portfolio.tsx';
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: <NotFound />
+    errorElement: <NotFound />,
+    children: [
+      {
+        path: "",
+        element: <Home />
+      },
+      {
+        path: "portfolio",
+        element: <Portfolio />
+      }
+    ]
   },
 ]);
 
