@@ -1,3 +1,11 @@
+.center {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+
 .post {
     font-size: 16px;
     margin-top: 25px;
@@ -5,8 +13,6 @@
 
 .post-container {
     background-color: #0f130f;
-    max-width: 800px;
-    margin: 20px auto;
     border-radius: 15px;
 
     padding: 50px;
@@ -37,4 +43,9 @@
 
 .post a {
     color: var(--secondary);
+}
+
+.source-link {
+    text-decoration: none;
+    color: #4f5e4f
 }
