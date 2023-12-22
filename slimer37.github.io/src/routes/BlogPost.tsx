@@ -10,8 +10,10 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 
 function BlogPost() {
   const [markdown, setMarkdown] = useState("Loading")
-
+  
   const { year, month, day, name } = useParams();
+
+  const [title, setTitle] = useState(name)
 
   const path = `/posts/${year}-${month}-${day}-${name}.markdown`;
 
@@ -20,13 +22,17 @@ function BlogPost() {
       setMarkdown("Error while loading file: " + path)
       return
     }
-    setMarkdown(text.replace('--','—'))
+    text = text.replace('--','—')
+    const eol = text.indexOf('\n')
+    const title = text.substring(0, eol)
+    setTitle(title)
+    setMarkdown(text.substring(eol + 1).trimStart())
   })
 
   return (
     <>
       <div className="post-container">
-        <h1 className="title">{name?.replace('-', ' ')}</h1>
+        <h1 className="title">{title?.replace('-', ' ')}</h1>
         <p className="post-date">{`${months[parseInt(month!) - 1]} ${day}, ${year}`}</p>
         <div className="post">
           <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>

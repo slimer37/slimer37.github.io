@@ -1,3 +1,5 @@
+Brain Food
+
 I don't mean oranges.
 
 The original intention was to fill the blog with two starter posts to make it something worth reading--one as an introduction and the second a tour of the store game over the past year or so.
