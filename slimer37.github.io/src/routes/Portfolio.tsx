@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import './portfolio.css'
 
 function Portfolio() {
@@ -11,22 +13,22 @@ function Portfolio() {
             <div className="duppet pixel-art"></div>
           </div>
         </a>
-        <a href="gallery" className="project-tile gallery-tile">
+        <Link to="gallery" className="project-tile gallery-tile">
           3D Gallery
-        </a>
+        </Link>
         <a href="https://slimer37.itch.io/early-store-game" className="project-tile cc-tile">
           Counter Chaos (Legacy)
           <img className="cc-title shadow" src="/src/assets/portfolio/thumbs/cclogo.png" />
         </a>
       </div>
       <div className="row">
-        <a className="project-tile wip-tile">
+        <span className="project-tile wip-tile">
           SOME TWINSTICK
           <p className="wip">Work<br />In<br />Progress</p>
-        </a>
-        <a className="project-tile empty-tile">
+        </span>
+        <span className="project-tile empty-tile">
           <div className="empty-tile-content">:)</div>
-        </a>
+        </span>
       </div>
     </>
   )

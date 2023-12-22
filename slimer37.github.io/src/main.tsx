@@ -13,6 +13,7 @@ import NotFound from './NotFound.tsx'
 
 import Home from './routes/Home.tsx'
 import Portfolio from './routes/Portfolio.tsx';
+import Gallery from './routes/Gallery.tsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "portfolio",
         element: <Portfolio />
+      },
+      {
+        path: "gallery",
+        element: <Gallery />
       }
     ]
   },
