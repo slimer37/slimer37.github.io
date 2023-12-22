@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import './Header.css'
 
 function Header() {
@@ -6,13 +8,13 @@ function Header() {
   return (
     <header id="header">
       <div className="header-group">
-        <a href="/" className="scaled-logo">
+        <Link to="/" className="scaled-logo">
           <img src="/src/assets/images/logo.png" style={{ height: "100%" }} />
-        </a>
+        </Link>
         <nav className="nav-btn-group">
-          <a className="nav-btn button" href="/blog">Blog</a>
-          <a className="nav-btn button" href="/portfolio">Portfolio</a>
-          <a className="nav-btn button" href="https://slimer37.itch.io">Games</a>
+          <Link className="nav-btn button" to="/blog">Blog</Link>
+          <Link className="nav-btn button" to="/portfolio">Portfolio</Link>
+          <Link className="nav-btn button" to="https://slimer37.itch.io">Games</Link>
         </nav>
       </div>
     </header>
