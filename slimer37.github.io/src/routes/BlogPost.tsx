@@ -27,7 +27,7 @@ function BlogPost() {
       navigate("/invalid-post")
       return
     }
-    text = text.replace('--', '—')
+    text = text.replace(/--/g, '—')
     const eol = text.indexOf('\n')
     const title = text.substring(0, eol)
     setTitle(title)
