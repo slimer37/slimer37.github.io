@@ -14,6 +14,7 @@ import NotFound from './NotFound.tsx'
 import Home from './routes/Home.tsx'
 import Portfolio from './routes/Portfolio.tsx';
 import Gallery from './routes/Gallery.tsx';
+import BlogPost from './routes/BlogPost.tsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "gallery",
         element: <Gallery />
+      },
+      {
+        path: "post/:year/:month/:day/:name",
+        element: <BlogPost />
       }
     ]
   },
