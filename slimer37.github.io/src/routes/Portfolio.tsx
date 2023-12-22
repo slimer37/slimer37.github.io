@@ -13,7 +13,7 @@ function Portfolio() {
             <div className="duppet pixel-art"></div>
           </div>
         </a>
-        <Link to="gallery" className="project-tile gallery-tile">
+        <Link to="/gallery" className="project-tile gallery-tile">
           3D Gallery
         </Link>
         <a href="https://slimer37.itch.io/early-store-game" className="project-tile cc-tile">
