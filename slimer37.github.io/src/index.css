@@ -26,6 +26,11 @@ code {
   border-radius: 5px;
   padding: 10px;
   border: solid gray 1px;
+
+  text-align: left;
+
+  display: inline-block;
+  white-space: pre-wrap  
 }
 
 h1 {
