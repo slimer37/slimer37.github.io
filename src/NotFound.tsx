@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react'
 
+import logoEyes from './assets/images/logoeyes.png'
+
 import './NotFound.css'
 
 function NotFound() {
@@ -82,7 +84,7 @@ function NotFound() {
     return (
         <div className='container'>
             <h1 className="err" ref={errRef}>404</h1>
-            <img src="https://slimer37.me/assets/images/logoeyes.png" width="100px" style={{ marginTop: '-10px', marginBottom: '10px' }} />
+            <img src={logoEyes} width="100px" style={{ marginTop: '-10px', marginBottom: '10px' }} />
 
             <h2 style={{ margin: 0 }}>Page not found.</h2>
 
