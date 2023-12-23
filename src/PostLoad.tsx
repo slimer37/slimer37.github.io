@@ -1,40 +1,27 @@
-import { useNavigate } from "react-router-dom";
-
-import { useState } from "react";
-
-type PostData = {
-  success: boolean,
+export type PostData = {
   title: string,
   markdown: string,
   dateString: string,
   sourceHref: string
 }
 
-function LoadPost(markdownFile: string, dateSource: Date, setTitle: boolean = false): PostData {
-  const [data, setData] = useState({ success: false, title: "", markdown: "", dateString: "", sourceHref: "" })
+export type PostRetrievedCallback = (postData: PostData) => void;
 
+async function LoadPost(markdownFile: string, dateSource: Date, fail: () => void, setTitle: boolean = false): Promise<PostData> {
   const path = `/posts/${markdownFile}.markdown`;
 
   const dateString = dateSource.toLocaleString('en-us', { year: 'numeric', month: 'long', day: 'numeric' });
-  
-  const navigate = useNavigate();
 
-  function fail() {
-    // navigate somewhere that doesn't exist
-    navigate(`/invalid/${markdownFile}`)
-    data.success = false
-  }
-
-  fetch(path).then(response => {
+  return await fetch(path).then(response => {
     if (response.status != 200) {
       fail()
       return ""
     }
     return response.text()
   }).then(text => {
-    if (text.startsWith("<!")) {
+    if (text.startsWith("<!") || text == "") {
       fail()
-      return data
+      return { title: '', markdown: '', dateString: '', sourceHref: '' }
     }
     text = text.replace(/--/g, '—')
     const eol = text.indexOf('\n')
@@ -44,12 +31,13 @@ function LoadPost(markdownFile: string, dateSource: Date, setTitle: boolean = fa
       document.title = title
     }
 
+    console.log(`Loaded ${title}`)
+
     const markdown = text.substring(eol + 1).trimStart()
 
-    setData({ success: true, title: title, markdown: markdown, dateString: dateString, sourceHref: path })
+    const postData: PostData = { title: title, markdown: markdown, dateString: dateString, sourceHref: path }
+    return postData
   })
-
-  return data
 }
 
 export default LoadPost
