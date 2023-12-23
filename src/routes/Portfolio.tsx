@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom'
 
+import ccLogo from '../assets/portfolio/thumbs/cclogo.png'
+import titleTile from '../assets/portfolio/thumbs/titletile.png'
+
 import './portfolio.css'
 
 function Portfolio() {
@@ -10,7 +13,7 @@ function Portfolio() {
       <div className="row">
         <a href="https://slimer37.itch.io/gtmk-jam-2021" className="project-tile emayhem-project-tile">
           GMTK 2021 Entry
-          <img className="em-title pixel-art shadow" src="/src/assets/portfolio/thumbs/titletile.png" />
+          <img className="em-title pixel-art shadow" src={titleTile} />
           <div className="duppet-container">
             <div className="duppet pixel-art"></div>
           </div>
@@ -20,7 +23,7 @@ function Portfolio() {
         </Link>
         <a href="https://slimer37.itch.io/early-store-game" className="project-tile cc-tile">
           Counter Chaos (Legacy)
-          <img className="cc-title shadow" src="/src/assets/portfolio/thumbs/cclogo.png" />
+          <img className="cc-title shadow" src={ccLogo} />
         </a>
       </div>
       <div className="row">
