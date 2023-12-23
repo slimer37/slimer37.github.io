@@ -19,6 +19,11 @@
   --accent: #5DC3B9;
 }
 
+p code {
+  padding: 0;
+  border: none;
+}
+
 code {
   font-family: 'JetBrains Mono', monospace;
   font-size: 10pt;
