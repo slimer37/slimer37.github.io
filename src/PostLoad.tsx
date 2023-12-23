@@ -19,11 +19,21 @@ function LoadPost(markdownFile: string, dateSource: Date, setTitle: boolean = fa
   
   const navigate = useNavigate();
 
-  fetch(path).then(response => response.text()).then(text => {
+  function fail() {
+    // navigate somewhere that doesn't exist
+    navigate(`/invalid/${markdownFile}`)
+    data.success = false
+  }
+
+  fetch(path).then(response => {
+    if (response.status != 200) {
+      fail()
+      return ""
+    }
+    return response.text()
+  }).then(text => {
     if (text.startsWith("<!")) {
-      // navigate somewhere that doesn't exist
-      navigate(`/invalid/${markdownFile}`)
-      data.success = false
+      fail()
       return data
     }
     text = text.replace(/--/g, '—')
