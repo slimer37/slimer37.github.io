@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
@@ -17,7 +17,7 @@ import Gallery from './routes/Gallery.tsx';
 import BlogPost from './routes/BlogPost.tsx';
 import Blog from './routes/Blog.tsx';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
