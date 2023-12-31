@@ -7,9 +7,9 @@ function Root() {
   return (
     <>
       <Header shrinks={true} />
-      <div className="content">
+      <main className="content">
         <Outlet />
-      </div>
+      </main>
       <Footer />
     </>
   );
