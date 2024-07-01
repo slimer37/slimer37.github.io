@@ -58,6 +58,7 @@ function Blog() {
       <div className="list">
         <h2 style={{ fontSize: '2em', margin: 0 }}>Frontlog</h2>
         <p>The opposite of a backlog. I don't make posts often (ironically).</p>
+        <Post route="2024/7/1/you-can-be-ai" />
         <Post route="2023/1/17/enter-return" />
         <Post route="2022/1/17/what-is-the-deal" />
         <Post route="2021/2/27/the-supermarket-scramble-timeline" />
