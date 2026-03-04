@@ -14,9 +14,9 @@ function Home() {
 
         <p>I started coding with Unity and have been sticking with it for nearly 5 years. I've dabbled in a lot of programming languages since then: C++, Python, JavaScript (the website you're on), and Java. SQL was a short stint.</p>
 
-        <p>You can visit my <a href="https://github.com/slimer37/">GitHub</a>, where I host basically all my game code, any tech demos, or miscellaneous projects.</p>
+        <p>Visit my <a href="https://slimer37.itch.io/">Itch Page</a> for all my Game Jam submissions.</p>
 
-        <h3>My tools:</h3>
+        <h3>Tools I use:</h3>
 
         <ul>
           <li><a href="https://unity.com/">Unity</a></li>
