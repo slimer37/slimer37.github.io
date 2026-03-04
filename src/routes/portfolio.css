@@ -1,0 +1,164 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: 0;
+    max-height: 500px;
+}
+
+.project-tile {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    color: black;
+    margin: 5px;
+    padding: 20px;
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font: 20px "Jost", sans-serif;
+    font-weight: bold;
+
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 300px;
+    min-width: 25vw;
+
+    box-shadow: 5px 5px 5px #00000020;
+    
+    transition: 0.2s;
+}
+
+.project-tile:hover {
+    margin: 3px;
+    padding: 22px;
+    box-shadow: 2px 2px 2px #00000020;
+    border-radius: 10px;
+}
+
+.emayhem-project-tile {
+    background: url("/src/assets/portfolio/thumbs/embackground.png");
+    background-size: cover;
+    background-position-x: center;
+
+    color: var(--text);
+}
+
+.shadow {
+    filter: drop-shadow(0px 5px 5px #00000080);
+}
+
+.em-title {
+    margin: auto;
+    width: 90%;
+}
+
+.cc-title {
+    margin: auto;
+    height: 90%;
+}
+
+.cc-tile {
+    background: url("/src/assets/portfolio/thumbs/ccthumb.png");
+    background-size: cover;
+    max-width: 50vw;
+    max-height: 400px;
+}
+
+.gallery-tile {
+    background: url("/src/assets/portfolio/gallery/mobboss.png");
+    background-size: cover;
+    background-position: center;
+
+    color: var(--text);
+}
+
+.cc-thumb {
+    margin: auto;
+    height: 95%;
+}
+
+.wip-tile {
+    background: repeating-linear-gradient(-45deg,
+            var(--secondary),
+            var(--secondary) 30px,
+            var(--sec-bg) 30px,
+            var(--sec-bg) 60px);
+
+    color: var(--text);
+}
+
+.wip {
+    margin: auto;
+    text-align: center;
+
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    font-size: 2em;
+}
+
+.empty-tile {
+    background-color: var(--secondary);
+    color: var(--text);
+}
+
+.empty-tile-content {
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    font-size: 4em;
+}
+
+.pixel-art {
+    image-rendering: pixelated;
+}
+
+.duppet {
+    width: 48px;
+    height: 96px;
+
+    background: url("/src/assets/portfolio/assets/engineersprites.png");
+    background-size: 400%;
+
+    animation: duppet-flipbook 1s steps(4) infinite;
+}
+
+.duppet-container {
+    position: absolute;
+
+    bottom: 26px;
+
+    animation: duppet-walk 10s linear infinite;
+}
+
+@keyframes duppet-flipbook {
+
+    0% {
+        background-position: 0px;
+
+    }
+
+    100% {
+        background-position: 400%;
+    }
+
+}
+
+@keyframes duppet-walk {
+
+    0% {
+        right: calc(100% + 64px);
+    }
+
+    100% {
+        right: -64px;
+    }
+
+}

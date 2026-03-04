@@ -1,0 +1,42 @@
+.err {
+    font-size: 5em;
+    margin: 0px;
+}
+
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* For wavy text */
+
+/* https://codepen.io/zachkrall/pen/MWWGMPx */
+
+.wavy {
+    animation-name: wavy;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+@keyframes wavy {
+    0% {
+        top: 1px;
+    }
+
+    50% {
+        top: 5px;
+    }
+
+    100% {
+        top: 1px;
+    }
+}
