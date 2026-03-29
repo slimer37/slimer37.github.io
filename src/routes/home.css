@@ -22,12 +22,12 @@
     height: 100px;
     align-content: center;
 
-    transition: 80ms ease-out;
+    transition: transform 300ms ease-in;
 }
 
 .tool-logo:hover {
     filter: brightness(1.2), drop-shadow(0 0 0.75rem white);
-    width: 120px;
-    height: 120px;
-    margin: 10px;
+    transform: scale(1.2);
+
+    transition: transform 100ms ease-out;
 }
