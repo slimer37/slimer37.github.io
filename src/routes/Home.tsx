@@ -2,6 +2,7 @@ import ToolLogo from '../components/ToolLogo'
 import './home.css'
 
 import unityLogo from '../assets/logos/unity_logo.svg';
+import { useState } from 'react';
 
 function Home() {
   document.title = "Home"
@@ -16,6 +17,9 @@ function Home() {
     { logo: "https://upload.wikimedia.org/wikipedia/commons/2/20/Visual_Studio_Icon_2026.svg", label: "Visual Studio for C++", link: "https://visualstudio.microsoft.com/" }
   ];
 
+  const defaultHover = <p>Hover on something</p>;
+  const [body, setBody] = useState(defaultHover);
+
   return (
     <>
       <div className="front-page">
@@ -27,13 +31,17 @@ function Home() {
 
         <ul className="tool-list">
           {toolInfos.map(tool => (
-            <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} />
+            <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} onHover={() => setBody(<p>{tool.label}</p>)} onExitHover={() => setBody(defaultHover)} />
           ))}
         </ul>
-      </div >
-      <br />
-      <br />
-      <br />
+
+        <div className="tool-info">
+          {body}
+        </div>
+      </div>
+
+      <div style={{ height: '500px' }} />
+
       <div style={{ textAlign: 'center' }}>
         <a href='https://github.com/slimer37/slimer37.github.io' style={{ textDecoration: "none" }}><code>this is a react site<br />hosted on GitHub</code></a>
       </div>

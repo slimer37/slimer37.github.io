@@ -33,3 +33,7 @@
 
     transition: transform 100ms ease-out;
 }
+
+.tool-info {
+    margin: 20px;
+}
