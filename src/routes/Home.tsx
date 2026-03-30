@@ -59,6 +59,8 @@ function Home() {
   return (
     <>
       <div className="front-page">
+        <h1>Tools</h1>
+        <hr/>
         <div className="tool-section">
           <div className="tool-list">
             {toolInfos.map((tool, index) => (
@@ -80,10 +82,6 @@ function Home() {
       </div>
 
       <div style={{ height: '500px' }} />
-
-      <div style={{ textAlign: 'center' }}>
-        <a href='https://github.com/slimer37/slimer37.github.io' style={{ textDecoration: "none" }}><code>this is a react site<br />hosted on GitHub</code></a>
-      </div>
     </>
   )
 }
