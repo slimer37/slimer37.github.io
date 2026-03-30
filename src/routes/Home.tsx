@@ -59,7 +59,7 @@ function Home() {
   return (
     <>
       <div className="front-page">
-        <h1>Tools</h1>
+        <h1 style={{marginBottom: 0}}>Tools</h1>
         <hr/>
         <div className="tool-section">
           <div className="tool-list">
@@ -74,7 +74,7 @@ function Home() {
               <span className='info-line-sep' />
             </span>
             ))}
-            <span style={{height: "30pt"}} className={'info-line' + (selectedIndex == -1 ? '' : ' selected')}>
+            <span className={'info-line desc-line' + (selectedIndex == -1 ? '' : ' selected')}>
               <p>{(selectedIndex == -1 ? '' : '> ' + toolInfos[selectedIndex].desc)}</p>
             </span>
           </div>

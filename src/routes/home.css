@@ -13,13 +13,14 @@
     flex-direction: row;
     height: var(--tool-section-height);
     align-items: center;
+    gap: 30px;
 }
 
 .tool-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
     align-content: center;
 
     flex-shrink: 0;
@@ -28,7 +29,6 @@
 
     width: 40%;
     height: 100%;
-    margin: 10px 40px;
 }
 
 .tool-logo img {
@@ -66,6 +66,14 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.desc-line {
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin: 6pt 0;
+    height: 12pt;
+    padding: 5px;
 }
 
 .info-line > p {
