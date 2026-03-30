@@ -9,7 +9,7 @@ function MakeWaves() {
   return <>
     <Wave fill='url(#gradient)'
       paused={false}
-      style={{ position: 'absolute', left: 0, bottom: 0, height: '60%' }}
+      style={{ position: 'absolute', left: 0, bottom: 0, height: '60%', pointerEvents: 'none', zIndex: -100 }}
       options={{
         height: 20,
         amplitude: 150,
@@ -26,7 +26,7 @@ function MakeWaves() {
     </Wave>
     <Wave fill='url(#gradient2)'
       paused={false}
-      style={{ position: 'absolute', left: 0, bottom: 0, height: '40%' }}
+      style={{ position: 'absolute', left: 0, bottom: 0, height: '40%', pointerEvents: 'none', zIndex: -100 }}
       options={{
         height: 20,
         amplitude: 100,
