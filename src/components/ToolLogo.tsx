@@ -4,6 +4,7 @@ export default function ToolLogo({ logo, label, link, selected, onHover, onExitH
             <a href={link} target="_blank">
             <img src={logo} title={label} />
             </a>
+            <span className="corner-icon material-symbols-outlined">open_in_new</span>
         </li>
     )
 }
