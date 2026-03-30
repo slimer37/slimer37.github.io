@@ -58,12 +58,6 @@ function Home() {
 
         <h3>Tools I use:</h3>
 
-        <ul className="tool-list">
-          {toolInfos.map((tool, index) => (
-            <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} selected={selectedIndex == index} onHover={() => setSelectedIndex(index)} onExitHover={resetSelectedIndex} />
-          ))}
-        </ul>
-
         <div className="tool-info">
           {toolInfos.map((tool, index) => (<span className={'info-line' + (selectedIndex == index ? ' selected' : '')} onMouseEnter={() => setSelectedIndex(index)} onMouseLeave={resetSelectedIndex}>
             <p>{tool.label}</p>
@@ -71,6 +65,12 @@ function Home() {
           </span>
           ))}
         </div>
+
+        <ul className="tool-list">
+          {toolInfos.map((tool, index) => (
+            <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} selected={selectedIndex == index} onHover={() => setSelectedIndex(index)} onExitHover={resetSelectedIndex} />
+          ))}
+        </ul>
       </div>
 
       <div style={{ height: '500px' }} />
