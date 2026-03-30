@@ -22,7 +22,7 @@
     justify-content: right;
     align-content: center;
 
-    flex-shrink: 1;
+    flex-shrink: 0;
     overflow-y: scroll;
     scrollbar-width: none;
 
@@ -55,6 +55,7 @@
 
 .tool-info {
     margin: 20px;
+    flex-grow: 1;
 }
 
 .info-line {

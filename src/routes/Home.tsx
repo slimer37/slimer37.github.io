@@ -10,36 +10,43 @@ function Home() {
   const toolInfos = [
     {
       label: "Unity",
+      desc: "creating numerous 48/72-hour Game Jam projects and prototypes",
       logo: unityLogo,
       link: "https://unity.com/"
     },
     {
-      label: "Jetbrains Rider for Unity and other C# development",
+      label: "Jetbrains Rider",
+      desc: "used with Unity and other C# development",
       logo: "https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.svg",
       link: "https://www.jetbrains.com/rider/"
     },
     {
-      label: "Blender for 3D models",
+      label: "Blender",
+      desc: "making 3D game models and character animation",
       logo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
       link: "https://www.blender.org/"
     },
     {
-      label: "Affinity for icons, logos, and some texturing",
+      label: "Affinity",
+      desc: "designing icons, logos, and some texturing",
       logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Affinity_%28App%29_Logo.svg",
       link: "https://www.affinity.studio/"
     },
     {
-      label: "Aseprite for pixel art",
+      label: "Aseprite",
+      desc: "drawing and editing pixel art or retro 3D textures",
       logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Logo_Aseprite.svg",
       link: "https://www.aseprite.org/"
     },
     {
-      label: "VSCode to edit blog posts, websites, Python, or for simpler projects",
+      label: "VSCode",
+      desc: "this website and others, any Python or C development, or any small-scope projects",
       logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
       link: "https://code.visualstudio.com/"
     },
     {
-      label: "Visual Studio for C++",
+      label: "Visual Studio",
+      desc: "for projects using C++ or WPF",
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/20/Visual_Studio_Icon_2026.svg",
       link: "https://visualstudio.microsoft.com/"
     }
@@ -65,6 +72,9 @@ function Home() {
               <span className='info-line-sep' />
             </span>
             ))}
+            <span style={{height: "30pt"}} className={'info-line' + (selectedIndex == -1 ? '' : ' selected')}>
+              <p>{(selectedIndex == -1 ? '' : '> ' + toolInfos[selectedIndex].desc)}</p>
+            </span>
           </div>
         </div>
       </div>
