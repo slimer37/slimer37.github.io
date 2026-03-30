@@ -12,20 +12,22 @@
     display: flex;
     flex-direction: row;
     height: var(--tool-section-height);
-    justify-content: center;
+    align-items: center;
 }
 
 .tool-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
+    align-content: center;
 
     flex-shrink: 1;
     overflow-y: scroll;
     scrollbar-width: none;
 
     width: 40%;
+    height: 100%;
     margin: 10px 40px;
 }
 
