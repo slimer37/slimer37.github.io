@@ -10,56 +10,57 @@ function Home() {
   const toolInfos = [
     {
       label: "Unity",
-      years: 7,
+      startYear: 2019,
       desc: "creating numerous 48/72-hour Game Jam projects and prototypes",
       logo: unityLogo,
       link: "https://unity.com/"
     },
     {
       label: "Jetbrains Rider",
-      years: 5,
+      startYear: 2021,
       desc: "used with Unity and other C# development",
       logo: "https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.svg",
       link: "https://www.jetbrains.com/rider/"
     },
     {
       label: "Blender",
-      years: 7,
+      startYear: 2019,
       desc: "making 3D game models and character animation",
       logo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
       link: "https://www.blender.org/"
     },
     {
       label: "Affinity",
-      years: 5,
+      startYear: 2021,
       desc: "designing icons, logos, and some texturing",
       logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Affinity_%28App%29_Logo.svg",
       link: "https://www.affinity.studio/"
     },
     {
       label: "Aseprite",
-      years: 5,
+      startYear: 2020,
       desc: "drawing and editing pixel art or retro 3D textures",
       logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Logo_Aseprite.svg",
       link: "https://www.aseprite.org/"
     },
     {
       label: "VSCode",
-      years: 8,
+      startYear: 2019,
       desc: "this website and others, any Python or C development, or any small-scope projects",
       logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
       link: "https://code.visualstudio.com/"
     },
     {
       label: "Visual Studio",
-      years: 8,
+      startYear: 2019,
       desc: "for projects using C++ or WPF",
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/20/Visual_Studio_Icon_2026.svg",
       link: "https://visualstudio.microsoft.com/"
     }
   ];
 
-  toolInfos.sort((a, b) => b.years - a.years);
+  const currYear = new Date().getFullYear();
+  toolInfos.sort((a, b) => a.startYear - b.startYear);
 
   const defaultIndex = -1;
   const [selectedIndex, setSelectedIndex] = useState(defaultIndex);
@@ -81,7 +82,7 @@ function Home() {
             {toolInfos.map((tool, index) => (<span className={'info-line' + (selectedIndex == index ? ' selected' : '')} onMouseEnter={() => setSelectedIndex(index)} onMouseLeave={resetSelectedIndex}>
               <p>{tool.label}</p>
               <span className='info-line-sep' />
-              <p>{tool.years + ' years'}</p>
+              <p>{(currYear - tool.startYear) + ' years'}</p>
             </span>
             ))}
             <span className={'info-line desc-line' + (selectedIndex == -1 ? '' : ' selected')}>
