@@ -3,6 +3,46 @@ import './home.css'
 
 import unityLogo from '../assets/logos/unity_logo.svg';
 import { useState } from 'react';
+import Wave from 'react-wavify';
+
+function MakeWaves() {
+  return <>
+    <Wave fill='url(#gradient)'
+      paused={false}
+      style={{ position: 'absolute', left: 0, bottom: 0, height: '60%' }}
+      options={{
+        height: 20,
+        amplitude: 150,
+        speed: 0.025,
+        points: 4
+      }}
+    >
+      <defs>
+        <linearGradient id="gradient" gradientTransform="rotate(90)">
+          <stop offset="10%" stopColor="#3c3c3c62" />
+          <stop offset="50%" stopColor="#0000" />
+        </linearGradient>
+      </defs>
+    </Wave>
+    <Wave fill='url(#gradient2)'
+      paused={false}
+      style={{ position: 'absolute', left: 0, bottom: 0, height: '40%' }}
+      options={{
+        height: 20,
+        amplitude: 100,
+        speed: 0.05,
+        points: 4
+      }}
+    >
+      <defs>
+        <linearGradient id="gradient2" gradientTransform="rotate(90)">
+          <stop offset="10%" stopColor="#3c3c3c19" />
+          <stop offset="50%" stopColor="#0000" />
+        </linearGradient>
+      </defs>
+    </Wave>
+  </>
+}
 
 function Home() {
   document.title = "Home"
@@ -68,9 +108,10 @@ function Home() {
 
   return (
     <>
+      {MakeWaves()}
       <div className="front-page">
-        <h1 style={{marginBottom: 0}}>Tools</h1>
-        <hr/>
+        <h1 style={{ marginBottom: 0 }}>Tools</h1>
+        <hr />
         <div className="tool-section">
           <div className="tool-list">
             {toolInfos.map((tool, index) => (
