@@ -52,25 +52,21 @@ function Home() {
   return (
     <>
       <div className="front-page">
-        <h1>Hello!</h1>
+        <div className="tool-section">
+          <div className="tool-list">
+            {toolInfos.map((tool, index) => (
+              <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} selected={selectedIndex == index} onHover={() => setSelectedIndex(index)} onExitHover={resetSelectedIndex} />
+            ))}
+          </div>
 
-        <p>Visit my <a href="https://slimer37.itch.io/">Itch Page</a> for all my Game Jam submissions.</p>
-
-        <h3>Tools I use:</h3>
-
-        <div className="tool-info">
-          {toolInfos.map((tool, index) => (<span className={'info-line' + (selectedIndex == index ? ' selected' : '')} onMouseEnter={() => setSelectedIndex(index)} onMouseLeave={resetSelectedIndex}>
-            <p>{tool.label}</p>
-            <span className='info-line-sep' />
-          </span>
-          ))}
+          <div className="tool-info">
+            {toolInfos.map((tool, index) => (<span className={'info-line' + (selectedIndex == index ? ' selected' : '')} onMouseEnter={() => setSelectedIndex(index)} onMouseLeave={resetSelectedIndex}>
+              <p>{tool.label}</p>
+              <span className='info-line-sep' />
+            </span>
+            ))}
+          </div>
         </div>
-
-        <ul className="tool-list">
-          {toolInfos.map((tool, index) => (
-            <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} selected={selectedIndex == index} onHover={() => setSelectedIndex(index)} onExitHover={resetSelectedIndex} />
-          ))}
-        </ul>
       </div>
 
       <div style={{ height: '500px' }} />

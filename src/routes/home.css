@@ -1,6 +1,18 @@
+:root {
+    --tool-logo-size: 80px;
+    --tool-section-height: 300px;
+}
+
 .front-page {
     max-width: 1200px;
     margin: 10px auto;
+}
+
+.tool-section {
+    display: flex;
+    flex-direction: row;
+    height: var(--tool-section-height);
+    justify-content: center;
 }
 
 .tool-list {
@@ -8,9 +20,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    list-style: none;
-    margin: 10px 80px;
-    padding: 0;
+
+    flex-shrink: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    width: 40%;
+    margin: 10px 40px;
 }
 
 .tool-logo img {
@@ -19,9 +35,10 @@
 }
 
 .tool-logo {
+    width: var(--tool-logo-size);
+    height: var(--tool-logo-size);
+
     margin: 20px;
-    width: 100px;
-    height: 100px;
     align-content: center;
 
     transition: 300ms ease-in;
