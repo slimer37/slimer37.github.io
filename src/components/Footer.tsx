@@ -14,8 +14,8 @@ function Footer() {
       </div>
       <div className="footer-column">
         <p className="footer-item">
-          Hosted on&nbsp;
-          <a className="footer-link" href="https://github.com/slimer37/slimer37.github.io">GitHub</a>
+          Hosted with&nbsp;
+          <a className="footer-link" href="https://github.com/slimer37/slimer37.github.io">GitHub&nbsp;Pages</a>
         </p>
       </div>
     </footer>
