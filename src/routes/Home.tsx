@@ -8,13 +8,41 @@ function Home() {
   document.title = "Home"
 
   const toolInfos = [
-    { logo: unityLogo, label: "Unity (since 2019)", link: "https://unity.com/" },
-    { logo: "https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.svg", label: "Jetbrains Rider for Unity and other C# development", link: "https://www.jetbrains.com/rider/" },
-    { logo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg", label: "Blender for 3D models", link: "https://www.blender.org/" },
-    { logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Affinity_%28App%29_Logo.svg", label: "Affinity for icons, logos, and some texturing", link: "https://www.affinity.studio/" },
-    { logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Logo_Aseprite.svg", label: "Aseprite for pixel art", link: "https://www.aseprite.org/" },
-    { logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg", label: "VSCode to edit blog posts, websites, Python, or for simpler projects", link: "https://code.visualstudio.com/" },
-    { logo: "https://upload.wikimedia.org/wikipedia/commons/2/20/Visual_Studio_Icon_2026.svg", label: "Visual Studio for C++", link: "https://visualstudio.microsoft.com/" }
+    {
+      label: "Unity",
+      logo: unityLogo,
+      link: "https://unity.com/"
+    },
+    {
+      label: "Jetbrains Rider for Unity and other C# development",
+      logo: "https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.svg",
+      link: "https://www.jetbrains.com/rider/"
+    },
+    {
+      label: "Blender for 3D models",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
+      link: "https://www.blender.org/"
+    },
+    {
+      label: "Affinity for icons, logos, and some texturing",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Affinity_%28App%29_Logo.svg",
+      link: "https://www.affinity.studio/"
+    },
+    {
+      label: "Aseprite for pixel art",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Logo_Aseprite.svg",
+      link: "https://www.aseprite.org/"
+    },
+    {
+      label: "VSCode to edit blog posts, websites, Python, or for simpler projects",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+      link: "https://code.visualstudio.com/"
+    },
+    {
+      label: "Visual Studio for C++",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/20/Visual_Studio_Icon_2026.svg",
+      link: "https://visualstudio.microsoft.com/"
+    }
   ];
 
   const defaultIndex = -1;
@@ -39,8 +67,8 @@ function Home() {
         <div className="tool-info">
           {toolInfos.map((tool, index) => (<span className={'info-line' + (selectedIndex == index ? ' selected' : '')} onMouseEnter={() => setSelectedIndex(index)} onMouseLeave={resetSelectedIndex}>
             <p>{tool.label}</p>
-            <span className='info-line-sep'/>
-            </span>
+            <span className='info-line-sep' />
+          </span>
           ))}
         </div>
       </div>
