@@ -1,6 +1,6 @@
-export default function ToolLogo({ logo, label, link, onHover, onExitHover }: { logo: string, label: string, link: string, onHover: () => void, onExitHover: () => void }) {
+export default function ToolLogo({ logo, label, link, selected, onHover, onExitHover }: { logo: string, label: string, link: string, selected: boolean, onHover: () => void, onExitHover: () => void }) {
     return (
-        <li className="tool-logo" onMouseEnter={onHover} onMouseLeave={onExitHover}>
+        <li className={'tool-logo' + (selected ? ' selected' : '')} onMouseEnter={onHover} onMouseLeave={onExitHover}>
             <a href={link}>
             <img src={logo} title={label} />
             </a>

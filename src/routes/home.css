@@ -24,16 +24,42 @@
     height: 100px;
     align-content: center;
 
-    transition: transform 300ms ease-in;
+    transition: 300ms ease-in;
 }
 
-.tool-logo:hover {
-    filter: brightness(1.2), drop-shadow(0 0 0.75rem white);
+.tool-logo.selected {
+    filter: brightness(1.1) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.1));
     transform: scale(1.2);
 
-    transition: transform 100ms ease-out;
+    transition: 100ms ease-out;
 }
 
 .tool-info {
     margin: 20px;
+}
+
+.info-line {
+    opacity: 50%;
+    transition: 500ms ease-in-out;
+    padding: 5px 0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.info-line > p {
+    align-self: center;
+    margin: 0;
+}
+
+.info-line-sep {
+    align-self: center;
+    flex-grow: 1;
+    border-bottom: 1px dashed white;
+}
+
+.info-line.selected {
+    opacity: 100%;
+    transition: 50ms ease-in-out;
 }

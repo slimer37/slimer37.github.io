@@ -17,8 +17,9 @@ function Home() {
     { logo: "https://upload.wikimedia.org/wikipedia/commons/2/20/Visual_Studio_Icon_2026.svg", label: "Visual Studio for C++", link: "https://visualstudio.microsoft.com/" }
   ];
 
-  const defaultHover = <p>Hover on something</p>;
-  const [body, setBody] = useState(defaultHover);
+  const defaultIndex = -1;
+  const [selectedIndex, setSelectedIndex] = useState(defaultIndex);
+  const resetSelectedIndex = () => setSelectedIndex(defaultIndex);
 
   return (
     <>
@@ -30,13 +31,17 @@ function Home() {
         <h3>Tools I use:</h3>
 
         <ul className="tool-list">
-          {toolInfos.map(tool => (
-            <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} onHover={() => setBody(<p>{tool.label}</p>)} onExitHover={() => setBody(defaultHover)} />
+          {toolInfos.map((tool, index) => (
+            <ToolLogo logo={tool.logo} label={tool.label} link={tool.link} selected={selectedIndex == index} onHover={() => setSelectedIndex(index)} onExitHover={resetSelectedIndex} />
           ))}
         </ul>
 
         <div className="tool-info">
-          {body}
+          {toolInfos.map((tool, index) => (<span className={'info-line' + (selectedIndex == index ? ' selected' : '')} onMouseEnter={() => setSelectedIndex(index)} onMouseLeave={resetSelectedIndex}>
+            <p>{tool.label}</p>
+            <span className='info-line-sep'/>
+            </span>
+          ))}
         </div>
       </div>
 
