@@ -2,15 +2,31 @@ import './Footer.css'
 
 import face from "../assets/images/easter-face.png"
 
+function EmailLink(address: string) {
+  return <a className="footer-link" href={"mailto:" + address}>{address}</a>
+}
+
 function Footer() {
   return (
     <footer id="footer">
       <div className="footer-column">
-        <p className="footer-item">Site by Alfred Roy M<img src={face} style={{maxHeight: '30pt', marginBottom: '-15px'}} /></p>
-        <p className="footer-item">
-          Contact:&nbsp;
-          <a className="footer-link" href="mailto:slimer37dev@gmail.com">slimer37dev@gmail.com</a>
-        </p>
+        <div className="footer-item">
+          <span>Site by Alfred Roy M</span>
+          <img src={face} style={{ maxHeight: '30pt', marginBottom: '-15px' }} />
+        </div>
+        <div className="footer-item">
+          <b>Contact</b>
+          <table style={{ borderCollapse: 'collapse' }}>
+            <tr>
+              <td>Primary:</td>
+              <td>{EmailLink("alfredroym04@gmail.com")}</td>
+            </tr>
+            <tr>
+              <td>Games/Support:</td>
+              <td>{EmailLink("slimer37dev@gmail.com")}</td>
+            </tr>
+          </table>
+        </div>
       </div>
       <div className="footer-column">
         <p className="footer-item">

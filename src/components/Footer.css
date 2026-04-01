@@ -6,9 +6,7 @@ footer {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
-    height: 20px;
+    justify-content: space-evenly;
 }
 
 .footer-column {
@@ -25,4 +23,8 @@ footer {
 
 .footer-link {
     text-decoration: none;
+}
+
+td {
+    padding: 1px 20px 1px 0px;
 }
