@@ -14,7 +14,7 @@ function MakeWaves() {
       style={{ position: 'absolute', left: 0, bottom: 0, height: '60%' }}
       options={{
         height: 20,
-        amplitude: 150,
+        amplitude: 100,
         speed: 0.025,
         points: 4
       }}
@@ -31,7 +31,7 @@ function MakeWaves() {
       style={{ position: 'absolute', left: 0, bottom: 0, height: '40%' }}
       options={{
         height: 20,
-        amplitude: 100,
+        amplitude: 50,
         speed: 0.05,
         points: 4
       }}
@@ -113,6 +113,10 @@ function Home() {
       <div className="front-page">
         <h1>Hello,</h1>
         <h3>I make software that's mostly games.</h3>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <p>Currently working on a Unity game set for a 2026 Steam release:</p>
+          <iframe src="https://store.steampowered.com/widget/4048370/" frameBorder="0" width="646" height="190" style={{ alignSelf: 'center' }} />
+        </div>
         <h2 style={{ marginBottom: 0 }}>Tools</h2>
         <hr />
         <div className="tool-section">
@@ -136,7 +140,7 @@ function Home() {
         </div>
       </div>
 
-      <div style={{ height: '500px' }} />
+      <div style={{ height: '200px' }} />
 
       <div style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, zIndex: -500, overflow: 'hidden', pointerEvents: 'none' }}>
         <img src={paintStreak} style={{ position: 'absolute', top: -25, right: -100, opacity: '40%' }} />
