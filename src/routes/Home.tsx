@@ -110,6 +110,8 @@ function Home() {
     <>
       {MakeWaves()}
       <div className="front-page">
+        <h1>Hello,</h1>
+        <h3>I make software that's mostly games.</h3>
         <h2 style={{ marginBottom: 0 }}>Tools</h2>
         <hr />
         <div className="tool-section">
