@@ -70,11 +70,15 @@
 }
 
 .desc-line {
-    border: 1px solid gray;
+    border-top: 1px solid gray;
     border-radius: 2px;
     margin: 6pt 0;
     height: 12pt;
     padding: 5px;
+}
+
+.info-line.desc-line > p {
+    align-self: flex-start;
 }
 
 .info-line > p {
