@@ -5,11 +5,13 @@ import unityLogo from '../assets/logos/unity_logo.svg';
 import { useState } from 'react';
 import Wave from 'react-wavify';
 
+import paintStreak from '../assets/images/paint-streak.png'
+
 function MakeWaves() {
   return <>
     <Wave fill='url(#gradient)'
       paused={false}
-      style={{ position: 'absolute', left: 0, bottom: 0, height: '60%', pointerEvents: 'none', zIndex: -100 }}
+      style={{ position: 'absolute', left: 0, bottom: 0, height: '60%' }}
       options={{
         height: 20,
         amplitude: 150,
@@ -26,7 +28,7 @@ function MakeWaves() {
     </Wave>
     <Wave fill='url(#gradient2)'
       paused={false}
-      style={{ position: 'absolute', left: 0, bottom: 0, height: '40%', pointerEvents: 'none', zIndex: -100 }}
+      style={{ position: 'absolute', left: 0, bottom: 0, height: '40%' }}
       options={{
         height: 20,
         amplitude: 100,
@@ -108,7 +110,6 @@ function Home() {
 
   return (
     <>
-      {MakeWaves()}
       <div className="front-page">
         <h1>Hello,</h1>
         <h3>I make software that's mostly games.</h3>
@@ -136,6 +137,11 @@ function Home() {
       </div>
 
       <div style={{ height: '500px' }} />
+
+      <div style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, zIndex: -500, overflow: 'hidden', pointerEvents: 'none' }}>
+        <img src={paintStreak} style={{ position: 'absolute', top: -25, right: -100, opacity: '40%' }} />
+        {MakeWaves()}
+      </div>
     </>
   )
 }
