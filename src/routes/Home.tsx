@@ -141,13 +141,18 @@ function Home() {
         </div>
       </div>
 
-      <div style={{ height: '200px' }} />
+      <div style={{ height: '300px' }} />
 
       <img src={paintStreak} className="paint-streak" style={{ bottom: -240, right: -150 }} />
       <img src={paintStreak2} className="paint-streak" style={{ top: 0, left: -100 }} />
+
       <div style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, zIndex: -500, overflow: 'hidden', pointerEvents: 'none' }}>
         {MakeWaves()}
       </div>
+
+      <p style={{ fontSize: '9pt', opacity: '50%', margin: 0, textAlign: 'right' }}>
+        Paint streaks by <a href="https://unsplash.com/@luca_nicoletti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Nicoletti</a> on <a href="https://unsplash.com/photos/white-and-black-abstract-painting-O8CHmj0zgAg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </p>
     </>
   )
 }
