@@ -1,6 +1,6 @@
 footer {
     font-family: 'Jetbrains Mono', sans-serif;
-    background-image: linear-gradient(var(--bg), var(--sec-bg));
+    background-image: linear-gradient(transparent, var(--sec-bg));
     padding: 40px 0px;
     color: var(--text);
 
