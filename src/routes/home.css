@@ -1,4 +1,112 @@
+:root {
+    --tool-logo-size: 80px;
+    --tool-section-height: 300px;
+}
+
 .front-page {
     max-width: 1200px;
     margin: 10px auto;
+}
+
+.tool-section {
+    display: flex;
+    flex-direction: row;
+    height: var(--tool-section-height);
+    align-items: center;
+    gap: 30px;
+}
+
+.tool-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    flex-shrink: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    width: 40%;
+    height: 100%;
+}
+
+.tool-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.tool-logo {
+    width: var(--tool-logo-size);
+    height: var(--tool-logo-size);
+
+    margin: 20px;
+    align-content: center;
+
+    transform: scale(1);
+    transition: 300ms ease-in;
+}
+
+.tool-logo.selected {
+    filter: brightness(1.1) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.1));
+    transform: scale(1.2);
+
+    transition: 100ms ease-out;
+}
+
+.tool-info {
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.info-line {
+    opacity: 50%;
+    transition: 500ms ease-in-out;
+    padding: 5px 0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.desc-line {
+    border-top: 1px solid gray;
+    border-radius: 2px;
+    margin: 6pt 0;
+    height: 12pt;
+    padding: 5px;
+}
+
+.info-line.desc-line > p {
+    align-self: flex-start;
+}
+
+.info-line > p {
+    align-self: center;
+    margin: 0;
+}
+
+.info-line-sep {
+    align-self: center;
+    flex-grow: 1;
+    border-bottom: 1px dashed white;
+}
+
+.info-line.selected {
+    opacity: 100%;
+    transition: 50ms ease-in-out;
+}
+
+.corner-icon {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    opacity: 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: inherit;
+}
+
+.tool-logo:hover > .corner-icon {
+    opacity: 100%;
 }
