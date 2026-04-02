@@ -1,6 +1,7 @@
 :root {
     --tool-logo-size: 80px;
     --tool-section-height: 300px;
+    overflow-x: hidden;
 }
 
 .front-page {
