@@ -110,3 +110,9 @@
 .tool-logo:hover > .corner-icon {
     opacity: 100%;
 }
+
+.paint-streak {
+    position: absolute;
+    opacity: 60%;
+    z-index: -50;
+}

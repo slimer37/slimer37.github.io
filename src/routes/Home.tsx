@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Wave from 'react-wavify';
 
 import paintStreak from '../assets/images/paint-streak.png'
+import paintStreak2 from '../assets/images/paint-streak-2.png'
 
 function MakeWaves() {
   return <>
@@ -142,8 +143,9 @@ function Home() {
 
       <div style={{ height: '200px' }} />
 
+      <img src={paintStreak} className="paint-streak" style={{ bottom: -240, right: -150 }} />
+      <img src={paintStreak2} className="paint-streak" style={{ top: 0, left: -100 }} />
       <div style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, zIndex: -500, overflow: 'hidden', pointerEvents: 'none' }}>
-        <img src={paintStreak} style={{ position: 'absolute', top: -25, right: -100, opacity: '40%' }} />
         {MakeWaves()}
       </div>
     </>
